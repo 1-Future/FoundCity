@@ -1,0 +1,49 @@
+import { EntityLifeCycle } from '#/engine/entity/EntityLifeCycle.js';
+import NonPathingEntity from '#/engine/entity/NonPathingEntity.js';
+
+export default class Obj extends NonPathingEntity {
+    static readonly REVEAL: number = 100;
+    static readonly NO_RECEIVER: bigint = -1n;
+
+    // constructor properties
+    type: number;
+    count: number;
+
+    // runtime
+    receiver64: bigint = Obj.NO_RECEIVER;
+    reveal: number = -1;
+    lastChange: number = -1;
+
+    constructor(level: number, x: number, z: number, lifecycle: EntityLifeCycle, type: number, count: number) {
+        super(level, x, z, 1, 1, lifecycle);
+        this.type = type;
+        this.count = count;
+    }
+
+    turn() {
+        if (this.reveal > -1 && --this.reveal === 0) {
+            // World.revealObj will handle this
+        }
+
+        --this.lifecycleTick;
+
+        if (this.lifecycleTick === 0) {
+            // World will handle the actual add/remove
+        } else if (this.lifecycleTick < 0) {
+            this.setLifeCycle(-1);
+            console.error('Obj is tracked but has a negative lifecycle tick');
+        }
+    }
+
+    isValid(hash64?: bigint): boolean {
+        if (this.reveal > -1 && hash64 && hash64 !== this.receiver64) {
+            return false;
+        }
+
+        if (this.count < 1) {
+            return false;
+        }
+
+        return super.isValid();
+    }
+}
