@@ -2,13 +2,12 @@ import fs from 'fs';
 import path from 'path';
 
 import { LocType, LocStore } from '#/config/LocType.js';
-import { NpcType, NpcStore } from '#/config/NpcType.js';
+import { NpcStore } from '#/config/NpcType.js';
 import { CoordGrid } from '#/engine/CoordGrid.js';
 import { BlockWalk } from '#/engine/entity/BlockWalk.js';
 import { EntityLifeCycle } from '#/engine/entity/EntityLifeCycle.js';
 import Loc from '#/engine/entity/Loc.js';
 import { MoveRestrict } from '#/engine/entity/MoveRestrict.js';
-import Npc from '#/engine/entity/Npc.js';
 import Obj from '#/engine/entity/Obj.js';
 import Zone from '#/engine/zone/Zone.js';
 import ZoneGrid from '#/engine/zone/ZoneGrid.js';
@@ -142,8 +141,9 @@ export default class GameMap {
         console.log(`[GameMap] Loaded ${files.length} maps, ${this.zoneMap.zoneCount()} zones, ${this.zoneMap.locCount()} locs, ${this.zoneMap.objCount()} objs`);
     }
 
-    // NPC/Obj spawn queues filled during init, consumed by World after
-    readonly npcSpawns: { npc: Npc }[] = [];
+    // Spawn queues filled during init, consumed by World after.
+    // NPC spawns stored as raw data to avoid circular import (GameMap → Npc → PathingEntity → GameMap).
+    readonly npcSpawns: { level: number; x: number; z: number; type: number; size: number; moveRestrict: MoveRestrict; blockWalk: BlockWalk; config: ReturnType<typeof NpcStore.get> }[] = [];
     readonly objSpawns: { obj: Obj; receiver: bigint }[] = [];
 
     private loadMap(data: any): void {
@@ -199,7 +199,7 @@ export default class GameMap {
             }
         }
 
-        // load NPC spawns
+        // load NPC spawns (store raw data — World creates Npc instances to avoid circular import)
         if (Array.isArray(data.npcs)) {
             for (const npcData of data.npcs) {
                 const absX = baseX + (npcData.x ?? 0);
@@ -212,22 +212,7 @@ export default class GameMap {
                 const moveRestrict = (config?.moverestrict ?? 0) as MoveRestrict;
                 const blockWalk = (config?.blockwalk ?? 0) as BlockWalk;
 
-                const npc = new Npc(level, absX, absZ, size, size, EntityLifeCycle.RESPAWN, npcType, moveRestrict, blockWalk);
-                if (config) {
-                    npc.baseLevels[0] = config.attack;
-                    npc.baseLevels[1] = config.strength;
-                    npc.baseLevels[2] = config.defence;
-                    npc.baseLevels[3] = config.hitpoints;
-                    npc.baseLevels[4] = config.ranged;
-                    npc.baseLevels[5] = config.magic;
-                    npc.initStats();
-                    npc.wanderRange = config.wanderrange;
-                    npc.respawnDelay = config.respawnrate;
-                    if (config.huntmode >= 0) npc.huntMode = config.huntmode;
-                    if (config.huntrange > 0) npc.huntRange = config.huntrange;
-                }
-
-                this.npcSpawns.push({ npc });
+                this.npcSpawns.push({ level, x: absX, z: absZ, type: npcType, size, moveRestrict, blockWalk, config });
             }
         }
 

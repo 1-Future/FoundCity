@@ -175,8 +175,22 @@ export default class World {
         console.log('[World] Initializing...');
         World.gameMap.init('data');
 
-        // spawn NPCs and Objs from map data
-        for (const { npc } of World.gameMap.npcSpawns) {
+        // spawn NPCs from map data (GameMap stores raw data to avoid circular import)
+        for (const spawn of World.gameMap.npcSpawns) {
+            const npc = new Npc(spawn.level, spawn.x, spawn.z, spawn.size, spawn.size, EntityLifeCycle.RESPAWN, spawn.type, spawn.moveRestrict, spawn.blockWalk);
+            if (spawn.config) {
+                npc.baseLevels[0] = spawn.config.attack;
+                npc.baseLevels[1] = spawn.config.strength;
+                npc.baseLevels[2] = spawn.config.defence;
+                npc.baseLevels[3] = spawn.config.hitpoints;
+                npc.baseLevels[4] = spawn.config.ranged;
+                npc.baseLevels[5] = spawn.config.magic;
+                npc.initStats();
+                npc.wanderRange = spawn.config.wanderrange;
+                npc.respawnDelay = spawn.config.respawnrate;
+                if (spawn.config.huntmode >= 0) npc.huntMode = spawn.config.huntmode;
+                if (spawn.config.huntrange > 0) npc.huntRange = spawn.config.huntrange;
+            }
             this.addNpc(npc);
             npc.spawnTriggerPending = true;
         }
