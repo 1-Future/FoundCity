@@ -1,1 +1,157 @@
-[]
+[
+  {
+    "id": 0,
+    "debugname": "duel1",
+    "type": 115
+  },
+  {
+    "id": 1,
+    "debugname": "duel2",
+    "type": 115
+  },
+  {
+    "id": 2,
+    "debugname": "duel3",
+    "type": 115
+  },
+  {
+    "id": 3,
+    "debugname": "duel4",
+    "type": 115
+  },
+  {
+    "id": 4,
+    "debugname": "duel5",
+    "type": 115
+  },
+  {
+    "id": 5,
+    "debugname": "duel6",
+    "type": 115
+  },
+  {
+    "id": 6,
+    "debugname": "duel7",
+    "type": 115
+  },
+  {
+    "id": 7,
+    "debugname": "duel8",
+    "type": 115
+  },
+  {
+    "id": 8,
+    "debugname": "duel9",
+    "type": 115
+  },
+  {
+    "id": 9,
+    "debugname": "duel10",
+    "type": 115
+  },
+  {
+    "id": 10,
+    "debugname": "lumberyard_fence_used",
+    "type": 105
+  },
+  {
+    "id": 11,
+    "debugname": "yommi_spot1",
+    "type": 112
+  },
+  {
+    "id": 12,
+    "debugname": "yommi_spot2",
+    "type": 112
+  },
+  {
+    "id": 13,
+    "debugname": "yommi_spot3",
+    "type": 112
+  },
+  {
+    "id": 14,
+    "debugname": "yommi_spot4",
+    "type": 112
+  },
+  {
+    "id": 15,
+    "debugname": "yommi_spot5",
+    "type": 112
+  },
+  {
+    "id": 16,
+    "debugname": "yommi_spot6",
+    "type": 112
+  },
+  {
+    "id": 17,
+    "debugname": "upass_rockswing_used",
+    "type": 105
+  },
+  {
+    "id": 18,
+    "debugname": "upass_swampswing_used",
+    "type": 105
+  },
+  {
+    "id": 19,
+    "debugname": "upass_area2_pipe_used",
+    "type": 105
+  },
+  {
+    "id": 20,
+    "debugname": "upass_area1_pipe_used",
+    "type": 105
+  },
+  {
+    "id": 21,
+    "debugname": "gnome_obstacle_pipe_used",
+    "type": 105
+  },
+  {
+    "id": 22,
+    "debugname": "barb_ropeswing_used",
+    "type": 105
+  },
+  {
+    "id": 23,
+    "debugname": "barb_obstacle_pipe_used",
+    "type": 105
+  },
+  {
+    "id": 24,
+    "debugname": "wilderness_obstacle_pipe_used",
+    "type": 105
+  },
+  {
+    "id": 25,
+    "debugname": "wilderness_ropeswing_used",
+    "type": 105
+  },
+  {
+    "id": 26,
+    "debugname": "yanille_ledge_used",
+    "type": 105
+  },
+  {
+    "id": 27,
+    "debugname": "yanille_obstacle_pipe_used",
+    "type": 105
+  },
+  {
+    "id": 28,
+    "debugname": "brimnorth_ropeswing_used",
+    "type": 105
+  },
+  {
+    "id": 29,
+    "debugname": "brimsouth_ropeswing_used",
+    "type": 105
+  },
+  {
+    "id": 30,
+    "debugname": "ogre_ropeswing_used",
+    "type": 105
+  }
+]

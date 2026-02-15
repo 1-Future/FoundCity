@@ -1,1 +1,6590 @@
-[]
+[
+  {
+    "id": 0,
+    "debugname": "triple_firebreath_attack",
+    "model": 3015,
+    "seq": 85,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 1,
+    "debugname": "firebreath_attack",
+    "model": 3016,
+    "seq": 86,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 2,
+    "debugname": "icebreath_attack",
+    "model": 3018,
+    "seq": 88,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 3,
+    "debugname": "acidbreath_attack",
+    "model": 3017,
+    "seq": 87,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 4,
+    "debugname": "portal",
+    "model": 3019,
+    "seq": 70,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 5,
+    "debugname": "portalend",
+    "model": 3019,
+    "seq": 71,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 6,
+    "debugname": "giantspider_teleport",
+    "model": 2886,
+    "seq": 150,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 7,
+    "debugname": "giant_teleport",
+    "model": 3351,
+    "seq": 135,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 8,
+    "debugname": "whippingplant_attack",
+    "model": 2296,
+    "seq": 496,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 9,
+    "debugname": "iron_arrow_travel",
+    "model": 3136,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      33,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 10,
+    "debugname": "bronze_arrow_travel",
+    "model": 3136,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      5652,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 11,
+    "debugname": "steel_arrow_travel",
+    "model": 3136,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 12,
+    "debugname": "mithril_arrow_travel",
+    "model": 3136,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43282,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 13,
+    "debugname": "adamant_arrow_travel",
+    "model": 3136,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      21662,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 14,
+    "debugname": "unlit_arrow_travel",
+    "model": 3136,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      12,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 15,
+    "debugname": "rune_arrow_travel",
+    "model": 3136,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      37270,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 16,
+    "debugname": "ice_arrow_travel",
+    "model": 3136,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      57,
+      61,
+      5012,
+      926,
+      5012,
+      0
+    ],
+    "recol_d": [
+      37340,
+      37340,
+      37444,
+      37340,
+      37340,
+      0
+    ]
+  },
+  {
+    "id": 17,
+    "debugname": "fire_arrow_travel",
+    "model": 3132,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 18,
+    "debugname": "iron_arrow_launch",
+    "model": 3142,
+    "seq": 366,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      33,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 19,
+    "debugname": "bronze_arrow_launch",
+    "model": 3142,
+    "seq": 366,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      5652,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 20,
+    "debugname": "steel_arrow_launch",
+    "model": 3142,
+    "seq": 366,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 21,
+    "debugname": "mithril_arrow_launch",
+    "model": 3142,
+    "seq": 366,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43297,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 22,
+    "debugname": "adamant_arrow_launch",
+    "model": 3142,
+    "seq": 366,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      21662,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 23,
+    "debugname": "unlit_arrow_launch",
+    "model": 3142,
+    "seq": 366,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      12,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 24,
+    "debugname": "rune_arrow_launch",
+    "model": 3142,
+    "seq": 366,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      36133,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 25,
+    "debugname": "ice_arrow_launch",
+    "model": 3142,
+    "seq": 366,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      57,
+      61,
+      5012,
+      926,
+      5012,
+      0
+    ],
+    "recol_d": [
+      37340,
+      37340,
+      37444,
+      37340,
+      37340,
+      0
+    ]
+  },
+  {
+    "id": 26,
+    "debugname": "fire_arrow_launch",
+    "model": 3141,
+    "seq": 366,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 27,
+    "debugname": "crossbowbolt_travel",
+    "model": 3135,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 28,
+    "debugname": "crossbowbolt_launch",
+    "model": 3143,
+    "seq": 367,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 29,
+    "debugname": "rotten_tomato_travel",
+    "model": 3208,
+    "seq": 375,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 30,
+    "debugname": "rotten_tomato_launch",
+    "model": 3208,
+    "seq": 374,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 31,
+    "debugname": "rotten_splash",
+    "model": 2223,
+    "seq": 914,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      43237,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      3742,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 32,
+    "debugname": "dwarf_stone_throw_travel",
+    "model": 3349,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 33,
+    "debugname": "dwarf_stone_throw_launch",
+    "model": 3350,
+    "seq": 922,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 34,
+    "debugname": "spotanim_34",
+    "model": 3346,
+    "seq": 925,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 35,
+    "debugname": "iron_taxe_travel",
+    "model": 3148,
+    "seq": 372,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      33,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 36,
+    "debugname": "bronze_taxe_travel",
+    "model": 3148,
+    "seq": 372,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      5652,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 37,
+    "debugname": "steel_taxe_travel",
+    "model": 3148,
+    "seq": 372,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 38,
+    "debugname": "mithril_taxe_travel",
+    "model": 3148,
+    "seq": 372,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43297,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 39,
+    "debugname": "adamant_taxe_travel",
+    "model": 3148,
+    "seq": 372,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      21662,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 40,
+    "debugname": "spotanim_40",
+    "model": 3148,
+    "seq": 372,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      10508,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 41,
+    "debugname": "rune_taxe_travel",
+    "model": 3148,
+    "seq": 372,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      36133,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 42,
+    "debugname": "iron_taxe_launch",
+    "model": 3147,
+    "seq": 371,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      33,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 43,
+    "debugname": "bronze_taxe_launch",
+    "model": 3147,
+    "seq": 371,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      5652,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 44,
+    "debugname": "steel_taxe_launch",
+    "model": 3147,
+    "seq": 371,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 45,
+    "debugname": "mithril_taxe_launch",
+    "model": 3147,
+    "seq": 371,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43297,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 46,
+    "debugname": "adamant_taxe_launch",
+    "model": 3147,
+    "seq": 371,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      21662,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 47,
+    "debugname": "spotanim_47",
+    "model": 3147,
+    "seq": 371,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      10508,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 48,
+    "debugname": "rune_taxe_launch",
+    "model": 3147,
+    "seq": 371,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      36133,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 49,
+    "debugname": "vial_travel",
+    "model": 3152,
+    "seq": 375,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 50,
+    "debugname": "vial_launch",
+    "model": 3150,
+    "seq": 374,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 51,
+    "debugname": "enchanted_vial_travel",
+    "model": 3151,
+    "seq": 375,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 52,
+    "debugname": "enchanted_vial_launch",
+    "model": 3149,
+    "seq": 374,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 53,
+    "debugname": "cannonball_travel",
+    "model": 3133,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 54,
+    "debugname": "firebreath_travel",
+    "model": 3154,
+    "seq": 373,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 55,
+    "debugname": "gnomeball_travel",
+    "model": 3153,
+    "seq": 375,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 56,
+    "debugname": "attacksword",
+    "model": 519,
+    "seq": 451,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 57,
+    "debugname": "portcullisclose",
+    "model": 2294,
+    "seq": 454,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 58,
+    "debugname": "portcullisopen",
+    "model": 2294,
+    "seq": 455,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 59,
+    "debugname": "whirlpool",
+    "model": 2320,
+    "seq": 456,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 60,
+    "debugname": "rockfall",
+    "model": 2321,
+    "seq": 457,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 61,
+    "debugname": "swinginglogtrap_release",
+    "model": 2322,
+    "seq": 458,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 62,
+    "debugname": "speartrap_release",
+    "model": 2323,
+    "seq": 459,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 63,
+    "debugname": "springtrap_release",
+    "model": 2325,
+    "seq": 460,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 64,
+    "debugname": "springtrap_reset",
+    "model": 2325,
+    "seq": 461,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 65,
+    "debugname": "double_springtrap_release",
+    "model": 2326,
+    "seq": 462,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 66,
+    "debugname": "double_springtrap_reset",
+    "model": 2326,
+    "seq": 463,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 67,
+    "debugname": "rope_piece",
+    "model": 2224,
+    "seq": 489,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 68,
+    "debugname": "watersplash",
+    "model": 2223,
+    "seq": 465,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 69,
+    "debugname": "lavasplash",
+    "model": 2223,
+    "seq": 465,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      43237,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      5058,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 70,
+    "debugname": "catapultload",
+    "model": 3140,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 71,
+    "debugname": "catapultimpact",
+    "model": 3116,
+    "seq": 693,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      7104,
+      6080,
+      960,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      22416,
+      21539,
+      21652,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 72,
+    "debugname": "biopigeon_launch",
+    "model": 2850,
+    "seq": 341,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      11200,
+      9123,
+      7070,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      5056,
+      127,
+      127,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 73,
+    "debugname": "pickaxe_head_launch",
+    "model": 3137,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 74,
+    "debugname": "spotanim_74",
+    "model": 2321,
+    "seq": 643,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 75,
+    "debugname": "axe_head_launch",
+    "model": 3134,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 76,
+    "debugname": "saradomin_lightning",
+    "model": 3066,
+    "seq": 647,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 100,
+    "contrast": 100,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 77,
+    "debugname": "gunthix_claw",
+    "model": 3068,
+    "seq": 648,
+    "resizeh": 56,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 50,
+    "contrast": 50,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 78,
+    "debugname": "zamorak_flame",
+    "model": 2267,
+    "seq": 901,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 75,
+    "contrast": 75,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 79,
+    "debugname": "gnome_globes",
+    "model": 3069,
+    "seq": 650,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 270,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 80,
+    "debugname": "stunned",
+    "model": 3070,
+    "seq": 706,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 81,
+    "debugname": "bullroarer",
+    "model": 3071,
+    "seq": 705,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 82,
+    "debugname": "zap",
+    "model": 3073,
+    "seq": 651,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 83,
+    "debugname": "ibansbolt",
+    "model": 3072,
+    "seq": 649,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      43187,
+      43189,
+      43063,
+      43065,
+      43067,
+      61
+    ],
+    "recol_d": [
+      906,
+      910,
+      914,
+      918,
+      922,
+      926
+    ]
+  },
+  {
+    "id": 84,
+    "debugname": "heal_casting",
+    "model": 3074,
+    "seq": 652,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 85,
+    "debugname": "failedspell_impact",
+    "model": 3080,
+    "seq": 653,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 86,
+    "debugname": "smokepuff",
+    "model": 3076,
+    "seq": 654,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 87,
+    "debugname": "ibanblast_casting",
+    "model": 3079,
+    "seq": 655,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 60,
+    "contrast": 60,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 88,
+    "debugname": "ibanblast_travel",
+    "model": 3077,
+    "seq": 656,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 60,
+    "contrast": 60,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 89,
+    "debugname": "ibanblast_impact",
+    "model": 3078,
+    "seq": 657,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 60,
+    "contrast": 60,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 90,
+    "debugname": "windstrike_casting",
+    "model": 3083,
+    "seq": 658,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 30,
+    "contrast": 30,
+    "recol_s": [
+      51136,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43119,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 91,
+    "debugname": "windstrike_travel",
+    "model": 3081,
+    "seq": 659,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 30,
+    "contrast": 30,
+    "recol_s": [
+      926,
+      947,
+      11200,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43119,
+      127,
+      43968,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 92,
+    "debugname": "windstrike_impact",
+    "model": 3082,
+    "seq": 660,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 30,
+    "contrast": 30,
+    "recol_s": [
+      926,
+      947,
+      11200,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43119,
+      127,
+      43968,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 93,
+    "debugname": "waterstrike_casting",
+    "model": 3083,
+    "seq": 658,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      51136,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      45010,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 94,
+    "debugname": "waterstrike_travel",
+    "model": 3081,
+    "seq": 659,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      926,
+      947,
+      11200,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      45010,
+      41187,
+      42093,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 95,
+    "debugname": "waterstrike_impact",
+    "model": 3082,
+    "seq": 660,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 50,
+    "contrast": 50,
+    "recol_s": [
+      926,
+      947,
+      11200,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      45010,
+      41187,
+      42093,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 96,
+    "debugname": "earthstrike_casting",
+    "model": 3083,
+    "seq": 658,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 30,
+    "contrast": 30,
+    "recol_s": [
+      51136,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      10138,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 97,
+    "debugname": "earthstrike_travel",
+    "model": 3081,
+    "seq": 659,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 30,
+    "contrast": 30,
+    "recol_s": [
+      926,
+      947,
+      11200,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      10138,
+      10155,
+      22464,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 98,
+    "debugname": "earthstrike_impact",
+    "model": 3082,
+    "seq": 660,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 30,
+    "contrast": 30,
+    "recol_s": [
+      926,
+      947,
+      11200,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      10138,
+      10155,
+      22464,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 99,
+    "debugname": "firestrike_casting",
+    "model": 3083,
+    "seq": 658,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 60,
+    "contrast": 60,
+    "recol_s": [
+      51136,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      960,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 100,
+    "debugname": "firestrike_travel",
+    "model": 3081,
+    "seq": 659,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 60,
+    "contrast": 60,
+    "recol_s": [
+      926,
+      947,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      960,
+      6080,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 101,
+    "debugname": "firestrike_impact",
+    "model": 3082,
+    "seq": 660,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 60,
+    "contrast": 60,
+    "recol_s": [
+      926,
+      947,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      960,
+      6080,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 102,
+    "debugname": "confuse_casting",
+    "model": 3092,
+    "seq": 668,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 75,
+    "contrast": 75,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 103,
+    "debugname": "confuse_travel",
+    "model": 3093,
+    "seq": 669,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 75,
+    "contrast": 75,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 104,
+    "debugname": "confuse_impact",
+    "model": 3094,
+    "seq": 670,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 75,
+    "contrast": 75,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 105,
+    "debugname": "weaken_casting",
+    "model": 3095,
+    "seq": 671,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 106,
+    "debugname": "weaken_travel",
+    "model": 3096,
+    "seq": 672,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 107,
+    "debugname": "weaken_impact",
+    "model": 3097,
+    "seq": 673,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 108,
+    "debugname": "curse_casting",
+    "model": 3098,
+    "seq": 674,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 75,
+    "contrast": 75,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 109,
+    "debugname": "curse_travel",
+    "model": 3100,
+    "seq": 675,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 75,
+    "contrast": 75,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 110,
+    "debugname": "curse_impact",
+    "model": 3102,
+    "seq": 676,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 75,
+    "contrast": 75,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 111,
+    "debugname": "teleport_casting",
+    "model": 3091,
+    "seq": 667,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 100,
+    "contrast": 100,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 112,
+    "debugname": "lowlvlalchemy_casting",
+    "model": 3090,
+    "seq": 665,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 75,
+    "contrast": 75,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 113,
+    "debugname": "highlvlalchemy_casting",
+    "model": 3090,
+    "seq": 666,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 75,
+    "contrast": 75,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 114,
+    "debugname": "enchant_amulet_lvl1",
+    "model": 3103,
+    "seq": 677,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 115,
+    "debugname": "enchant_amulet_lvl2",
+    "model": 3103,
+    "seq": 678,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 116,
+    "debugname": "enchant_amulet_lvl3",
+    "model": 3103,
+    "seq": 679,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 117,
+    "debugname": "windbolt_casting",
+    "model": 3083,
+    "seq": 658,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 30,
+    "contrast": 30,
+    "recol_s": [
+      51136,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43119,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 118,
+    "debugname": "windbolt_travel",
+    "model": 3084,
+    "seq": 661,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 50,
+    "contrast": 50,
+    "recol_s": [
+      11200,
+      6080,
+      960,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      61,
+      127,
+      82,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 119,
+    "debugname": "windbolt_impact",
+    "model": 3085,
+    "seq": 662,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 50,
+    "contrast": 50,
+    "recol_s": [
+      960,
+      6080,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      82,
+      127,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 120,
+    "debugname": "waterbolt_casting",
+    "model": 3083,
+    "seq": 658,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 60,
+    "contrast": 60,
+    "recol_s": [
+      51136,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43968,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 121,
+    "debugname": "waterbolt_travel",
+    "model": 3084,
+    "seq": 661,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 60,
+    "contrast": 60,
+    "recol_s": [
+      11200,
+      6080,
+      960,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43968,
+      38848,
+      43486,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 122,
+    "debugname": "waterbolt_impact",
+    "model": 3085,
+    "seq": 662,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 60,
+    "contrast": 60,
+    "recol_s": [
+      960,
+      6080,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43486,
+      38848,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 123,
+    "debugname": "earthbolt_casting",
+    "model": 3083,
+    "seq": 658,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      51136,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      10138,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 124,
+    "debugname": "earthbolt_travel",
+    "model": 3084,
+    "seq": 661,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      11200,
+      6080,
+      960,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      22430,
+      22464,
+      8092,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 125,
+    "debugname": "earthbolt_impact",
+    "model": 3085,
+    "seq": 662,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      960,
+      6080,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      8092,
+      22464,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 126,
+    "debugname": "firebolt_casting",
+    "model": 3083,
+    "seq": 658,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 60,
+    "contrast": 60,
+    "recol_s": [
+      51136,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      960,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 127,
+    "debugname": "firebolt_travel",
+    "model": 3084,
+    "seq": 661,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 60,
+    "contrast": 60,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 128,
+    "debugname": "firebolt_impact",
+    "model": 3085,
+    "seq": 662,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 60,
+    "contrast": 60,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 129,
+    "debugname": "fireblast_casting",
+    "model": 3083,
+    "seq": 658,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 60,
+    "contrast": 60,
+    "recol_s": [
+      51136,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      960,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 130,
+    "debugname": "fireblast_travel",
+    "model": 3087,
+    "seq": 663,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 60,
+    "contrast": 60,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 131,
+    "debugname": "fireblast_impact",
+    "model": 3088,
+    "seq": 664,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 60,
+    "contrast": 60,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 132,
+    "debugname": "windblast_casting",
+    "model": 3083,
+    "seq": 658,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 50,
+    "contrast": 50,
+    "recol_s": [
+      51136,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43119,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 133,
+    "debugname": "windblast_travel",
+    "model": 3087,
+    "seq": 663,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 50,
+    "contrast": 50,
+    "recol_s": [
+      7104,
+      6080,
+      960,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      61,
+      127,
+      82,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 134,
+    "debugname": "windblast_impact",
+    "model": 3088,
+    "seq": 664,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 50,
+    "contrast": 50,
+    "recol_s": [
+      960,
+      6080,
+      24256,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      82,
+      127,
+      61,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 135,
+    "debugname": "waterblast_casting",
+    "model": 3083,
+    "seq": 658,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 60,
+    "contrast": 60,
+    "recol_s": [
+      51136,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43968,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 136,
+    "debugname": "waterblast_travel",
+    "model": 3087,
+    "seq": 663,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 60,
+    "contrast": 60,
+    "recol_s": [
+      7104,
+      6080,
+      960,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43486,
+      38848,
+      43968,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 137,
+    "debugname": "waterblast_impact",
+    "model": 3088,
+    "seq": 664,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 60,
+    "contrast": 60,
+    "recol_s": [
+      960,
+      6080,
+      24256,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43968,
+      38848,
+      43486,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 138,
+    "debugname": "earthblast_casting",
+    "model": 3083,
+    "seq": 658,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      51136,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      10138,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 139,
+    "debugname": "earthblast_travel",
+    "model": 3087,
+    "seq": 663,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      7104,
+      6080,
+      960,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      22430,
+      22464,
+      8092,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 140,
+    "debugname": "earthblast_impact",
+    "model": 3088,
+    "seq": 664,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      960,
+      6080,
+      24256,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      8092,
+      22464,
+      22430,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 141,
+    "debugname": "bonestobananas_casting",
+    "model": 3104,
+    "seq": 680,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 142,
+    "debugname": "telegrab_casting",
+    "model": 3105,
+    "seq": 681,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 143,
+    "debugname": "telegrab_travel",
+    "model": 3106,
+    "seq": 682,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 75,
+    "contrast": 75,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 144,
+    "debugname": "telegrab_impact",
+    "model": 3107,
+    "seq": 683,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 75,
+    "contrast": 75,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 145,
+    "debugname": "crumbleundead_casting",
+    "model": 3108,
+    "seq": 684,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 146,
+    "debugname": "crumbleundead_travel",
+    "model": 3109,
+    "seq": 685,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 147,
+    "debugname": "crumbleundead_impact",
+    "model": 3110,
+    "seq": 686,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 148,
+    "debugname": "superheatitem_casting",
+    "model": 3111,
+    "seq": 687,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 75,
+    "contrast": 75,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 149,
+    "debugname": "chargewaterorb_casting",
+    "model": 3112,
+    "seq": 688,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      49088,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43968,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 150,
+    "debugname": "chargewindorb_casting",
+    "model": 3112,
+    "seq": 688,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      49088,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      115,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 151,
+    "debugname": "chargeearthorb_casting",
+    "model": 3112,
+    "seq": 688,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      49088,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      22430,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 152,
+    "debugname": "chargefireorb_casting",
+    "model": 3112,
+    "seq": 688,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      49088,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      960,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 153,
+    "debugname": "enchant_amulet2_lvl4",
+    "model": 3113,
+    "seq": 689,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 154,
+    "debugname": "enchant_amulet2_lvl5",
+    "model": 3113,
+    "seq": 690,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 155,
+    "debugname": "firewave_casting",
+    "model": 3114,
+    "seq": 691,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 60,
+    "contrast": 60,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 156,
+    "debugname": "firewave_travel",
+    "model": 3115,
+    "seq": 692,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 60,
+    "contrast": 60,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 157,
+    "debugname": "firewave_impact",
+    "model": 3116,
+    "seq": 693,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 60,
+    "contrast": 60,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 158,
+    "debugname": "windwave_casting",
+    "model": 3114,
+    "seq": 691,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 50,
+    "contrast": 50,
+    "recol_s": [
+      7104,
+      6080,
+      960,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      82,
+      127,
+      61,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 159,
+    "debugname": "windwave_travel",
+    "model": 3115,
+    "seq": 692,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 50,
+    "contrast": 50,
+    "recol_s": [
+      7104,
+      6080,
+      960,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      82,
+      127,
+      61,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 160,
+    "debugname": "windwave_impact",
+    "model": 3116,
+    "seq": 693,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 50,
+    "contrast": 50,
+    "recol_s": [
+      7104,
+      6080,
+      960,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      82,
+      127,
+      61,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 161,
+    "debugname": "waterwave_casting",
+    "model": 3114,
+    "seq": 691,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      7104,
+      6080,
+      960,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43486,
+      38848,
+      43968,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 162,
+    "debugname": "waterwave_travel",
+    "model": 3115,
+    "seq": 692,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 60,
+    "contrast": 60,
+    "recol_s": [
+      7104,
+      6080,
+      960,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43486,
+      38848,
+      43968,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 163,
+    "debugname": "waterwave_impact",
+    "model": 3116,
+    "seq": 693,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 60,
+    "contrast": 60,
+    "recol_s": [
+      7104,
+      6080,
+      960,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43486,
+      38848,
+      43968,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 164,
+    "debugname": "earthwave_casting",
+    "model": 3114,
+    "seq": 691,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      7104,
+      6080,
+      960,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      8092,
+      22464,
+      22430,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 165,
+    "debugname": "earthwave_travel",
+    "model": 3115,
+    "seq": 692,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      7104,
+      6080,
+      960,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      8092,
+      22464,
+      22430,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 166,
+    "debugname": "earthwave_impact",
+    "model": 3116,
+    "seq": 693,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      7104,
+      6080,
+      960,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      8092,
+      22464,
+      22430,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 167,
+    "debugname": "vulnerability_casting",
+    "model": 3117,
+    "seq": 694,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 75,
+    "contrast": 75,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 168,
+    "debugname": "vulnerability_travel",
+    "model": 3099,
+    "seq": 675,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 75,
+    "contrast": 75,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 169,
+    "debugname": "vulnerability_impact",
+    "model": 3118,
+    "seq": 695,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 75,
+    "contrast": 75,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 170,
+    "debugname": "enfeeble_casting",
+    "model": 3119,
+    "seq": 696,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 171,
+    "debugname": "enfeeble_travel",
+    "model": 3120,
+    "seq": 697,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 172,
+    "debugname": "enfeeble_impact",
+    "model": 3122,
+    "seq": 698,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 173,
+    "debugname": "stun_casting",
+    "model": 3123,
+    "seq": 699,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 174,
+    "debugname": "stun_travel",
+    "model": 3124,
+    "seq": 700,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 175,
+    "debugname": "stun_impact",
+    "model": 3121,
+    "seq": 698,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 176,
+    "debugname": "explodingvial",
+    "model": 3125,
+    "seq": 701,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 177,
+    "debugname": "entangle_casting",
+    "model": 3126,
+    "seq": 702,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 178,
+    "debugname": "entangle_travel",
+    "model": 3127,
+    "seq": 703,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 179,
+    "debugname": "entangle_impact",
+    "model": 3128,
+    "seq": 704,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 180,
+    "debugname": "snare_impact",
+    "model": 3130,
+    "seq": 704,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 181,
+    "debugname": "bind_impact",
+    "model": 3129,
+    "seq": 704,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 182,
+    "debugname": "ballista_travel",
+    "model": 2240,
+    "seq": 731,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 183,
+    "debugname": "ballista_end",
+    "model": 2239,
+    "seq": 732,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 184,
+    "debugname": "shilomist",
+    "model": 3076,
+    "seq": 654,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      19344,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 185,
+    "debugname": "shooting_star",
+    "model": 3087,
+    "seq": 663,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      960,
+      6080,
+      7104,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      119,
+      123,
+      115,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 186,
+    "debugname": "runecrafting",
+    "model": 3067,
+    "seq": 790,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 187,
+    "debugname": "upass_claw",
+    "model": 3068,
+    "seq": 648,
+    "resizeh": 56,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      53167,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      10062,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 188,
+    "debugname": "smokepuff_large",
+    "model": 3076,
+    "seq": 654,
+    "resizeh": 256,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 189,
+    "debugname": "smokepuff_huge",
+    "model": 3076,
+    "seq": 654,
+    "resizeh": 512,
+    "resizev": 320,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 190,
+    "debugname": "hugespider_teleport_reverse",
+    "model": 2886,
+    "seq": 151,
+    "resizeh": 352,
+    "resizev": 352,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 191,
+    "debugname": "huge_teleport_reverse",
+    "model": 3351,
+    "seq": 136,
+    "resizeh": 224,
+    "resizev": 224,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 192,
+    "debugname": "holy_water_travel",
+    "model": 3151,
+    "seq": 375,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      127,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43959,
+      41438,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 193,
+    "debugname": "holy_water_launch",
+    "model": 3149,
+    "seq": 374,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      127,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43959,
+      41438,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 194,
+    "debugname": "nezik_flamestrike_casting",
+    "model": 3083,
+    "seq": 658,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      51136,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43146,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 195,
+    "debugname": "nezik_flamestrike_travel",
+    "model": 3081,
+    "seq": 659,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      926,
+      947,
+      11200,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43146,
+      45993,
+      127,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 196,
+    "debugname": "nezik_flamestrike_impact",
+    "model": 3082,
+    "seq": 660,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      926,
+      947,
+      11200,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43146,
+      45993,
+      127,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 197,
+    "debugname": "nezik_flamestrike",
+    "model": 2267,
+    "seq": 901,
+    "resizeh": 128,
+    "resizev": 384,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      8128,
+      7104,
+      5056,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43146,
+      45993,
+      127,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 198,
+    "debugname": "bookofbinding_effect",
+    "model": 3116,
+    "seq": 693,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      7104,
+      6080,
+      960,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      127,
+      43117,
+      43233,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 199,
+    "debugname": "levelup_anim",
+    "model": 411,
+    "seq": 913,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 200,
+    "debugname": "bronze_javelin_travel",
+    "model": 3138,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      5652,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 201,
+    "debugname": "iron_javelin_travel",
+    "model": 3138,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      33,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 202,
+    "debugname": "steel_javelin_travel",
+    "model": 3138,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 203,
+    "debugname": "mithril_javelin_travel",
+    "model": 3138,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43282,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 204,
+    "debugname": "adamant_javelin_travel",
+    "model": 3138,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      21662,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 205,
+    "debugname": "rune_javelin_travel",
+    "model": 3138,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      36133,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 206,
+    "debugname": "bronze_javelin_launch",
+    "model": 3144,
+    "seq": 368,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      5652,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 207,
+    "debugname": "iron_javelin_launch",
+    "model": 3144,
+    "seq": 368,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      33,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 208,
+    "debugname": "steel_javelin_launch",
+    "model": 3144,
+    "seq": 368,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 209,
+    "debugname": "mithril_javelin_launch",
+    "model": 3144,
+    "seq": 368,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43282,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 210,
+    "debugname": "adamant_javelin_launch",
+    "model": 3144,
+    "seq": 368,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      21662,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 211,
+    "debugname": "rune_javelin_launch",
+    "model": 3144,
+    "seq": 368,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      36133,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 212,
+    "debugname": "bronze_tknife_travel",
+    "model": 3139,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      57,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      5652,
+      5652,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 213,
+    "debugname": "iron_tknife_travel",
+    "model": 3139,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      57,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      33,
+      33,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 214,
+    "debugname": "steel_tknife_travel",
+    "model": 3139,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      57,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 215,
+    "debugname": "black_tknife_travel",
+    "model": 3139,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      57,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      8,
+      8,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 216,
+    "debugname": "mithril_tknife_travel",
+    "model": 3139,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      57,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43282,
+      43282,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 217,
+    "debugname": "adamant_tknife_travel",
+    "model": 3139,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      57,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      21662,
+      21662,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 218,
+    "debugname": "rune_tknife_travel",
+    "model": 3139,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      57,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      36133,
+      36133,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 219,
+    "debugname": "bronze_tknife_launch",
+    "model": 3145,
+    "seq": 369,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      57,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      5652,
+      5652,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 220,
+    "debugname": "iron_tknife_launch",
+    "model": 3145,
+    "seq": 369,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      57,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      33,
+      33,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 221,
+    "debugname": "steel_tknife_launch",
+    "model": 3145,
+    "seq": 369,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      57,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 222,
+    "debugname": "black_tknife_launch",
+    "model": 3145,
+    "seq": 369,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      57,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      8,
+      8,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 223,
+    "debugname": "mithril_tknife_launch",
+    "model": 3145,
+    "seq": 369,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      57,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43282,
+      43282,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 224,
+    "debugname": "adamant_tknife_launch",
+    "model": 3145,
+    "seq": 369,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      57,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      21662,
+      21662,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 225,
+    "debugname": "rune_tknife_launch",
+    "model": 3145,
+    "seq": 369,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      61,
+      57,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      36133,
+      36133,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 226,
+    "debugname": "bronze_dart_travel",
+    "model": 3131,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      82,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      5652,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 227,
+    "debugname": "iron_dart_travel",
+    "model": 3131,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      82,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      33,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 228,
+    "debugname": "steel_dart_travel",
+    "model": 3131,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      82,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 229,
+    "debugname": "mithril_dart_travel",
+    "model": 3131,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      82,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43282,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 230,
+    "debugname": "adamant_dart_travel",
+    "model": 3131,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      82,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      21662,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 231,
+    "debugname": "rune_dart_travel",
+    "model": 3131,
+    "seq": -1,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      82,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      36133,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 232,
+    "debugname": "bronze_dart_launch",
+    "model": 3146,
+    "seq": 370,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      82,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      5652,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 233,
+    "debugname": "iron_dart_launch",
+    "model": 3146,
+    "seq": 370,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      82,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      33,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 234,
+    "debugname": "steel_dart_launch",
+    "model": 3146,
+    "seq": 370,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      82,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 235,
+    "debugname": "mithril_dart_launch",
+    "model": 3146,
+    "seq": 370,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      82,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      43282,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 236,
+    "debugname": "adamant_dart_launch",
+    "model": 3146,
+    "seq": 370,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      82,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      21662,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 237,
+    "debugname": "rune_dart_launch",
+    "model": 3146,
+    "seq": 370,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      82,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      36133,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 238,
+    "debugname": "enchant_ring",
+    "model": 3370,
+    "seq": 930,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 40,
+    "contrast": 40,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 239,
+    "debugname": "barrel_smash",
+    "model": 2218,
+    "seq": 449,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 240,
+    "debugname": "chompy_toad_exploding",
+    "model": 3446,
+    "seq": 1023,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 241,
+    "debugname": "ogre_bellows_use",
+    "model": 3440,
+    "seq": 1024,
+    "resizeh": 128,
+    "resizev": 128,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "recol_d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 242,
+    "debugname": "ogre_arrow_travel",
+    "model": 3136,
+    "seq": -1,
+    "resizeh": 192,
+    "resizev": 192,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      5012,
+      926,
+      61,
+      57,
+      74,
+      0
+    ],
+    "recol_d": [
+      7582,
+      127,
+      10326,
+      13790,
+      9329,
+      0
+    ]
+  },
+  {
+    "id": 243,
+    "debugname": "ogre_arrow_launch",
+    "model": 3142,
+    "seq": 366,
+    "resizeh": 192,
+    "resizev": 192,
+    "orientation": 0,
+    "ambient": 0,
+    "contrast": 0,
+    "recol_s": [
+      5012,
+      926,
+      61,
+      57,
+      74,
+      0
+    ],
+    "recol_d": [
+      7582,
+      127,
+      10326,
+      13790,
+      9329,
+      0
+    ]
+  }
+]

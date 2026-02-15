@@ -1,1 +1,926 @@
-[]
+[
+  {
+    "id": 0,
+    "debugname": "double_door_open_and_close_left"
+  },
+  {
+    "id": 1,
+    "debugname": "double_door_open_and_close_right"
+  },
+  {
+    "id": 2,
+    "debugname": "border_gate_toll_left"
+  },
+  {
+    "id": 3,
+    "debugname": "border_gate_toll_right"
+  },
+  {
+    "id": 4,
+    "debugname": "door_open_and_close"
+  },
+  {
+    "id": 5,
+    "debugname": "door_closed"
+  },
+  {
+    "id": 6,
+    "debugname": "door_opened"
+  },
+  {
+    "id": 7,
+    "debugname": "door_left_closed"
+  },
+  {
+    "id": 8,
+    "debugname": "door_left_opened"
+  },
+  {
+    "id": 9,
+    "debugname": "door_right_closed"
+  },
+  {
+    "id": 10,
+    "debugname": "door_right_opened"
+  },
+  {
+    "id": 11,
+    "debugname": "outpost_gate"
+  },
+  {
+    "id": 12,
+    "debugname": "pineapple_plant_wild"
+  },
+  {
+    "id": 13,
+    "debugname": "banana_tree"
+  },
+  {
+    "id": 14,
+    "debugname": "mcgrubor_gate"
+  },
+  {
+    "id": 15,
+    "debugname": "red_vine"
+  },
+  {
+    "id": 16,
+    "debugname": "monkeybars"
+  },
+  {
+    "id": 17,
+    "debugname": "prayer_altar"
+  },
+  {
+    "id": 18,
+    "debugname": "chest_closed"
+  },
+  {
+    "id": 19,
+    "debugname": "chest_open"
+  },
+  {
+    "id": 20,
+    "debugname": "cupboard_closed"
+  },
+  {
+    "id": 21,
+    "debugname": "cupboard_opened"
+  },
+  {
+    "id": 22,
+    "debugname": "drawer"
+  },
+  {
+    "id": 23,
+    "debugname": "empty_drawer"
+  },
+  {
+    "id": 24,
+    "debugname": "gangplank_board"
+  },
+  {
+    "id": 25,
+    "debugname": "gangplank_disembark"
+  },
+  {
+    "id": 26,
+    "debugname": "gate_main_closed"
+  },
+  {
+    "id": 27,
+    "debugname": "gate_outer_closed"
+  },
+  {
+    "id": 28,
+    "debugname": "gate_main_open"
+  },
+  {
+    "id": 29,
+    "debugname": "gate_outer_open"
+  },
+  {
+    "id": 30,
+    "debugname": "hopper_nonfull"
+  },
+  {
+    "id": 31,
+    "debugname": "hoppercontrol"
+  },
+  {
+    "id": 32,
+    "debugname": "unusable_table"
+  },
+  {
+    "id": 33,
+    "debugname": "usable_table"
+  },
+  {
+    "id": 34,
+    "debugname": "watersource"
+  },
+  {
+    "id": 35,
+    "debugname": "well"
+  },
+  {
+    "id": 36,
+    "debugname": "party_balloon"
+  },
+  {
+    "id": 37,
+    "debugname": "varrock_gate"
+  },
+  {
+    "id": 38,
+    "debugname": "incorrect_clock_spindle"
+  },
+  {
+    "id": 39,
+    "debugname": "cooking_oven"
+  },
+  {
+    "id": 40,
+    "debugname": "grandtree_root"
+  },
+  {
+    "id": 41,
+    "debugname": "shipyard_gate"
+  },
+  {
+    "id": 42,
+    "debugname": "grandtree_pillar"
+  },
+  {
+    "id": 43,
+    "debugname": "manor_entrance"
+  },
+  {
+    "id": 44,
+    "debugname": "manor_bookcase"
+  },
+  {
+    "id": 45,
+    "debugname": "haunted_door"
+  },
+  {
+    "id": 46,
+    "debugname": "haunted_lever"
+  },
+  {
+    "id": 47,
+    "debugname": "hazeelcult_valve"
+  },
+  {
+    "id": 48,
+    "debugname": "observatory_dungeon_gate"
+  },
+  {
+    "id": 49,
+    "debugname": "jungle_tree"
+  },
+  {
+    "id": 50,
+    "debugname": "jungle_bush"
+  },
+  {
+    "id": 51,
+    "debugname": "boulder_legends"
+  },
+  {
+    "id": 52,
+    "debugname": "sheepherder_gate"
+  },
+  {
+    "id": 53,
+    "debugname": "ibantomb"
+  },
+  {
+    "id": 54,
+    "debugname": "rashiliyia_tomb_door_opened"
+  },
+  {
+    "id": 55,
+    "debugname": "rashiliyia_tomb_door_closed"
+  },
+  {
+    "id": 56,
+    "debugname": "zqtombdoor"
+  },
+  {
+    "id": 57,
+    "debugname": "shilo_metalgate"
+  },
+  {
+    "id": 58,
+    "debugname": "shilo_woodengate"
+  },
+  {
+    "id": 59,
+    "debugname": "island_rope_swing"
+  },
+  {
+    "id": 60,
+    "debugname": "karamja_stepping_stone"
+  },
+  {
+    "id": 61,
+    "debugname": "cooking_fire"
+  },
+  {
+    "id": 62,
+    "debugname": "mining_rock_normal"
+  },
+  {
+    "id": 63,
+    "debugname": "mining_rock_fast"
+  },
+  {
+    "id": 64,
+    "debugname": "mining_rock_macro_gas"
+  },
+  {
+    "id": 65,
+    "debugname": "rc_ruins"
+  },
+  {
+    "id": 66,
+    "debugname": "rc_altar"
+  },
+  {
+    "id": 67,
+    "debugname": "rc_exit_portal"
+  },
+  {
+    "id": 68,
+    "debugname": "smithing_furnace"
+  },
+  {
+    "id": 69,
+    "debugname": "tree"
+  },
+  {
+    "id": 70,
+    "debugname": "tutorial_gate"
+  },
+  {
+    "id": 71,
+    "debugname": "tut_mining_exit"
+  },
+  {
+    "id": 72,
+    "debugname": "rat_pit_cage"
+  },
+  {
+    "id": 73,
+    "debugname": "hemenster_gate"
+  },
+  {
+    "id": 74,
+    "debugname": "keep_lefaye_door"
+  },
+  {
+    "id": 75,
+    "debugname": "empty_crate"
+  },
+  {
+    "id": 76,
+    "debugname": "empty_crates"
+  },
+  {
+    "id": 77,
+    "debugname": "empty_boxes"
+  },
+  {
+    "id": 78,
+    "debugname": "bookcase"
+  },
+  {
+    "id": 79,
+    "debugname": "locked_gate"
+  },
+  {
+    "id": 80,
+    "debugname": "magic_guild_dungeon_door"
+  },
+  {
+    "id": 81,
+    "debugname": "digsite_soil"
+  },
+  {
+    "id": 82,
+    "debugname": "desertrescue_minecave"
+  },
+  {
+    "id": 83,
+    "debugname": "ball_irongate"
+  },
+  {
+    "id": 84,
+    "debugname": "shop_keeper"
+  },
+  {
+    "id": 85,
+    "debugname": "citizen"
+  },
+  {
+    "id": 86,
+    "debugname": "guard"
+  },
+  {
+    "id": 87,
+    "debugname": "legends_guard"
+  },
+  {
+    "id": 88,
+    "debugname": "fisherman_platform"
+  },
+  {
+    "id": 89,
+    "debugname": "bank_teller"
+  },
+  {
+    "id": 90,
+    "debugname": "gnome_troop"
+  },
+  {
+    "id": 91,
+    "debugname": "kolodion"
+  },
+  {
+    "id": 92,
+    "debugname": "battle_mage"
+  },
+  {
+    "id": 93,
+    "debugname": "sailor"
+  },
+  {
+    "id": 94,
+    "debugname": "bandit_camp_leader"
+  },
+  {
+    "id": 95,
+    "debugname": "macro_event_rock_golem"
+  },
+  {
+    "id": 96,
+    "debugname": "macro_event_zombie"
+  },
+  {
+    "id": 97,
+    "debugname": "macro_event_shade"
+  },
+  {
+    "id": 98,
+    "debugname": "macro_event_watchman"
+  },
+  {
+    "id": 99,
+    "debugname": "macro_event_dryad"
+  },
+  {
+    "id": 100,
+    "debugname": "macro_event_ent"
+  },
+  {
+    "id": 101,
+    "debugname": "macro_event_river_troll"
+  },
+  {
+    "id": 102,
+    "debugname": "freshfish"
+  },
+  {
+    "id": 103,
+    "debugname": "saltfish"
+  },
+  {
+    "id": 104,
+    "debugname": "rarefish"
+  },
+  {
+    "id": 105,
+    "debugname": "memberfish"
+  },
+  {
+    "id": 106,
+    "debugname": "healer"
+  },
+  {
+    "id": 107,
+    "debugname": "tower_advisor"
+  },
+  {
+    "id": 108,
+    "debugname": "witches_experiment"
+  },
+  {
+    "id": 109,
+    "debugname": "petcat"
+  },
+  {
+    "id": 110,
+    "debugname": "shipyardworker"
+  },
+  {
+    "id": 111,
+    "debugname": "black_demon"
+  },
+  {
+    "id": 112,
+    "debugname": "guardian_of_armadyl"
+  },
+  {
+    "id": 113,
+    "debugname": "diseased_sheep"
+  },
+  {
+    "id": 114,
+    "debugname": "undead_one"
+  },
+  {
+    "id": 115,
+    "debugname": "chicken"
+  },
+  {
+    "id": 116,
+    "debugname": "barbarian"
+  },
+  {
+    "id": 117,
+    "debugname": "duck"
+  },
+  {
+    "id": 118,
+    "debugname": "duckling"
+  },
+  {
+    "id": 119,
+    "debugname": "cow"
+  },
+  {
+    "id": 120,
+    "debugname": "unicorn"
+  },
+  {
+    "id": 121,
+    "debugname": "bear"
+  },
+  {
+    "id": 122,
+    "debugname": "ice_warrior"
+  },
+  {
+    "id": 123,
+    "debugname": "pirate"
+  },
+  {
+    "id": 124,
+    "debugname": "monk_of_zamorak"
+  },
+  {
+    "id": 125,
+    "debugname": "armour_godcape"
+  },
+  {
+    "id": 126,
+    "debugname": "weapon_staff"
+  },
+  {
+    "id": 127,
+    "debugname": "category_69"
+  },
+  {
+    "id": 128,
+    "debugname": "flowers"
+  },
+  {
+    "id": 129,
+    "debugname": "water_skin_filled"
+  },
+  {
+    "id": 130,
+    "debugname": "weapon_blunt"
+  },
+  {
+    "id": 131,
+    "debugname": "trail_casket_easy"
+  },
+  {
+    "id": 132,
+    "debugname": "trail_casket_hard"
+  },
+  {
+    "id": 133,
+    "debugname": "trail_puzzle_piece"
+  },
+  {
+    "id": 134,
+    "debugname": "trail_puzzle"
+  },
+  {
+    "id": 135,
+    "debugname": "trail_casket_medium"
+  },
+  {
+    "id": 136,
+    "debugname": "trail_clue_easy"
+  },
+  {
+    "id": 137,
+    "debugname": "trail_clue_hard"
+  },
+  {
+    "id": 138,
+    "debugname": "trail_clue_medium"
+  },
+  {
+    "id": 139,
+    "debugname": "trail_challenge"
+  },
+  {
+    "id": 140,
+    "debugname": "armour_helmet"
+  },
+  {
+    "id": 141,
+    "debugname": "armour_body"
+  },
+  {
+    "id": 142,
+    "debugname": "light_source_lit"
+  },
+  {
+    "id": 143,
+    "debugname": "weapon_slash"
+  },
+  {
+    "id": 144,
+    "debugname": "light_source_unlit"
+  },
+  {
+    "id": 145,
+    "debugname": "weapon_crossbow"
+  },
+  {
+    "id": 146,
+    "debugname": "ogre_bellows"
+  },
+  {
+    "id": 147,
+    "debugname": "category_5"
+  },
+  {
+    "id": 148,
+    "debugname": "cog"
+  },
+  {
+    "id": 149,
+    "debugname": "category_16"
+  },
+  {
+    "id": 150,
+    "debugname": "category_118"
+  },
+  {
+    "id": 151,
+    "debugname": "category_120"
+  },
+  {
+    "id": 152,
+    "debugname": "category_74"
+  },
+  {
+    "id": 153,
+    "debugname": "category_81"
+  },
+  {
+    "id": 154,
+    "debugname": "kitten"
+  },
+  {
+    "id": 155,
+    "debugname": "cat"
+  },
+  {
+    "id": 156,
+    "debugname": "overgrown"
+  },
+  {
+    "id": 157,
+    "debugname": "category_528"
+  },
+  {
+    "id": 158,
+    "debugname": "arrows"
+  },
+  {
+    "id": 159,
+    "debugname": "category_1399"
+  },
+  {
+    "id": 160,
+    "debugname": "category_734"
+  },
+  {
+    "id": 161,
+    "debugname": "category_1748"
+  },
+  {
+    "id": 162,
+    "debugname": "gold_bowl"
+  },
+  {
+    "id": 163,
+    "debugname": "weapon_thrown"
+  },
+  {
+    "id": 164,
+    "debugname": "weapon_stab"
+  },
+  {
+    "id": 165,
+    "debugname": "category_1176"
+  },
+  {
+    "id": 166,
+    "debugname": "cannon_parts"
+  },
+  {
+    "id": 167,
+    "debugname": "murder_proofobj"
+  },
+  {
+    "id": 168,
+    "debugname": "murder_flourobj"
+  },
+  {
+    "id": 169,
+    "debugname": "murder_printobj"
+  },
+  {
+    "id": 170,
+    "debugname": "scorpcage"
+  },
+  {
+    "id": 171,
+    "debugname": "category_91"
+  },
+  {
+    "id": 172,
+    "debugname": "category_1328"
+  },
+  {
+    "id": 173,
+    "debugname": "weapon_2h_sword"
+  },
+  {
+    "id": 174,
+    "debugname": "weapon_axe"
+  },
+  {
+    "id": 175,
+    "debugname": "armour_shield"
+  },
+  {
+    "id": 176,
+    "debugname": "weapon_spiked"
+  },
+  {
+    "id": 177,
+    "debugname": "armour_legs"
+  },
+  {
+    "id": 178,
+    "debugname": "weapon_spear"
+  },
+  {
+    "id": 179,
+    "debugname": "category_17"
+  },
+  {
+    "id": 180,
+    "debugname": "bolts"
+  },
+  {
+    "id": 181,
+    "debugname": "weapon_bow"
+  },
+  {
+    "id": 182,
+    "debugname": "weapon_javelin"
+  },
+  {
+    "id": 183,
+    "debugname": "alcoholic_drinks"
+  },
+  {
+    "id": 184,
+    "debugname": "category_135"
+  },
+  {
+    "id": 185,
+    "debugname": "category_131"
+  },
+  {
+    "id": 186,
+    "debugname": "category_59"
+  },
+  {
+    "id": 187,
+    "debugname": "category_86"
+  },
+  {
+    "id": 188,
+    "debugname": "category_58"
+  },
+  {
+    "id": 189,
+    "debugname": "cooking_generic"
+  },
+  {
+    "id": 190,
+    "debugname": "category_130"
+  },
+  {
+    "id": 191,
+    "debugname": "category_129"
+  },
+  {
+    "id": 192,
+    "debugname": "category_132"
+  },
+  {
+    "id": 193,
+    "debugname": "gnome_premade_and_toadlegs_kingworm"
+  },
+  {
+    "id": 194,
+    "debugname": "gnome_unf_odd_batta"
+  },
+  {
+    "id": 195,
+    "debugname": "gnome_batta"
+  },
+  {
+    "id": 196,
+    "debugname": "gnome_cocktail"
+  },
+  {
+    "id": 197,
+    "debugname": "gnome_unf_odd_cocktail"
+  },
+  {
+    "id": 198,
+    "debugname": "gnome_unf_odd_crunchies"
+  },
+  {
+    "id": 199,
+    "debugname": "gnome_crunchies"
+  },
+  {
+    "id": 200,
+    "debugname": "gnome_bowl"
+  },
+  {
+    "id": 201,
+    "debugname": "gnome_unf_odd_bowl"
+  },
+  {
+    "id": 202,
+    "debugname": "category_82"
+  },
+  {
+    "id": 203,
+    "debugname": "category_621"
+  },
+  {
+    "id": 204,
+    "debugname": "legends_gem"
+  },
+  {
+    "id": 205,
+    "debugname": "category_656"
+  },
+  {
+    "id": 206,
+    "debugname": "armour_hands"
+  },
+  {
+    "id": 207,
+    "debugname": "category_22"
+  },
+  {
+    "id": 208,
+    "debugname": "category_532"
+  },
+  {
+    "id": 209,
+    "debugname": "category_57"
+  },
+  {
+    "id": 210,
+    "debugname": "category_116"
+  },
+  {
+    "id": 211,
+    "debugname": "category_968"
+  },
+  {
+    "id": 212,
+    "debugname": "category_530"
+  },
+  {
+    "id": 213,
+    "debugname": "category_969"
+  },
+  {
+    "id": 214,
+    "debugname": "ogre_arrows"
+  },
+  {
+    "id": 215,
+    "debugname": "unstrung_bow"
+  },
+  {
+    "id": 216,
+    "debugname": "category_774"
+  },
+  {
+    "id": 217,
+    "debugname": "category_90"
+  },
+  {
+    "id": 218,
+    "debugname": "category_773"
+  },
+  {
+    "id": 219,
+    "debugname": "category_136"
+  },
+  {
+    "id": 220,
+    "debugname": "category_557"
+  },
+  {
+    "id": 221,
+    "debugname": "craft_orb"
+  },
+  {
+    "id": 222,
+    "debugname": "category_149"
+  },
+  {
+    "id": 223,
+    "debugname": "weapon_pickaxe"
+  },
+  {
+    "id": 224,
+    "debugname": "bones"
+  },
+  {
+    "id": 225,
+    "debugname": "talismans"
+  },
+  {
+    "id": 226,
+    "debugname": "category_151"
+  },
+  {
+    "id": 227,
+    "debugname": "category_475"
+  },
+  {
+    "id": 228,
+    "debugname": "armour_cape"
+  },
+  {
+    "id": 229,
+    "debugname": "weapon_scythe"
+  },
+  {
+    "id": 230,
+    "debugname": "category_715"
+  }
+]

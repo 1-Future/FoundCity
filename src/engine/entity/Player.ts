@@ -359,6 +359,18 @@ export default class Player extends PathingEntity {
         return !this.protect && !this.busy();
     }
 
+    // ---- interaction + movement (called by World.processPlayers) ----
+
+    processInteraction(): void {
+        if (this.target) {
+            // path to target and try interaction
+            this.pathToPathingTarget();
+        }
+
+        // movement
+        this.updateMovement();
+    }
+
     // ---- per-tick processing ----
 
     /**

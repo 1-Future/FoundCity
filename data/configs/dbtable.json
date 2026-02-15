@@ -1,1 +1,1667 @@
-[]
+[
+  {
+    "id": 0,
+    "debugname": "drop_table",
+    "columns": [
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "total"
+      },
+      {
+        "types": [
+          79,
+          105,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 4,
+        "debugname": "drop"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "debugname": "coord_pair_table",
+    "columns": [
+      {
+        "types": [
+          99,
+          99
+        ],
+        "defaultValue": null,
+        "flags": 4,
+        "debugname": "coord_pair"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "debugname": "levelup",
+    "columns": [
+      {
+        "types": [
+          83
+        ],
+        "defaultValue": null,
+        "flags": 3,
+        "debugname": "stat"
+      },
+      {
+        "types": [
+          97
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "interface"
+      },
+      {
+        "types": [
+          73
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "title"
+      },
+      {
+        "types": [
+          73
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "body"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "message"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "level_prefix"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "levelup_jingle"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "levelup_jingle_millis"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "unlocks_jingle"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "unlocks_jingle_millis"
+      },
+      {
+        "types": [
+          103
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "unlocks_levels"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "debugname": "music",
+    "columns": [
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 3,
+        "debugname": "name"
+      },
+      {
+        "types": [
+          73
+        ],
+        "defaultValue": null,
+        "flags": 3,
+        "debugname": "playbutton"
+      },
+      {
+        "types": [
+          105,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "debugname": "musicregion",
+    "columns": [
+      {
+        "types": [
+          99
+        ],
+        "defaultValue": null,
+        "flags": 3,
+        "debugname": "mapsquare"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "name"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "debugname": "consume_table",
+    "columns": [
+      {
+        "types": [
+          111
+        ],
+        "defaultValue": null,
+        "flags": 7,
+        "debugname": "consumable"
+      },
+      {
+        "types": [
+          80
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "consume_sound"
+      },
+      {
+        "types": [
+          83,
+          105,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 4,
+        "debugname": "stat_change"
+      },
+      {
+        "types": [
+          83,
+          105,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 4,
+        "debugname": "stat_heal"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "debugname": "consume_messages_table",
+    "columns": [
+      {
+        "types": [
+          111
+        ],
+        "defaultValue": null,
+        "flags": 7,
+        "debugname": "consumable"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "consume_message1"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "consume_message2"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "restore_message1"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "restore_message2"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "message_delay"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "debugname": "legends_gem_data",
+    "columns": [
+      {
+        "types": [
+          99
+        ],
+        "defaultValue": null,
+        "flags": 3,
+        "debugname": "rock_coord"
+      },
+      {
+        "types": [
+          111
+        ],
+        "defaultValue": null,
+        "flags": 3,
+        "debugname": "gem"
+      },
+      {
+        "types": [
+          79
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "gem_named"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "gem_bit"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "debugname": "sheep_table",
+    "columns": [
+      {
+        "types": [
+          110
+        ],
+        "defaultValue": null,
+        "flags": 3,
+        "debugname": "sheep_type"
+      },
+      {
+        "types": [
+          99
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "sheep_in_pen_coord"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "sheep_start_bit"
+      },
+      {
+        "types": [
+          79
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "sheep_bones"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "debugname": "combat_style_table",
+    "columns": [
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 4,
+        "debugname": "damagestyle"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 4,
+        "debugname": "damagetype"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "debugname": "cooking_generic",
+    "columns": [
+      {
+        "types": [
+          79
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "cooked"
+      },
+      {
+        "types": [
+          111
+        ],
+        "defaultValue": null,
+        "flags": 3,
+        "debugname": "uncooked"
+      },
+      {
+        "types": [
+          79
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "burnt"
+      },
+      {
+        "types": [
+          79
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "additional"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "levelrequired"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "experience"
+      },
+      {
+        "types": [
+          105,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "successchance"
+      },
+      {
+        "types": [
+          105,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "successchance_range"
+      },
+      {
+        "types": [
+          105,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "successchance_cookomatic"
+      },
+      {
+        "types": [
+          105,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "successchance_gauntlets"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "cookmessage_fire"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "cantcookmessage_fire"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "cookmessage_range"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "cantcookmessage_range"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "processmessage"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "successmessage"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "burnmessage"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "debugname": "gem_cutting_table",
+    "columns": [
+      {
+        "types": [
+          111
+        ],
+        "defaultValue": null,
+        "flags": 3,
+        "debugname": "uncut_gem"
+      },
+      {
+        "types": [
+          79
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "cut_gem"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "level"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "experience"
+      },
+      {
+        "types": [
+          65
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "skill_anim"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "level_fail_name"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "product_name"
+      },
+      {
+        "types": [
+          105,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "success_rate"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "debugname": "craft_leather_table",
+    "columns": [
+      {
+        "types": [
+          49
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "members"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "levelrequired"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "name"
+      },
+      {
+        "types": [
+          79,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "leather"
+      },
+      {
+        "types": [
+          79
+        ],
+        "defaultValue": null,
+        "flags": 3,
+        "debugname": "product"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "productexp"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "debugname": "dhide_interface_table",
+    "columns": [
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "color"
+      },
+      {
+        "types": [
+          111
+        ],
+        "defaultValue": null,
+        "flags": 3,
+        "debugname": "leather"
+      },
+      {
+        "types": [
+          79,
+          79,
+          79
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "interface_items"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "debugname": "fletch_bow_table",
+    "columns": [
+      {
+        "types": [
+          111
+        ],
+        "defaultValue": null,
+        "flags": 3,
+        "debugname": "log"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "shafts"
+      },
+      {
+        "types": [
+          79,
+          79
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "objchoices"
+      },
+      {
+        "types": [
+          79,
+          105,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "shortbow"
+      },
+      {
+        "types": [
+          79,
+          105,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "longbow"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "debugname": "fletching_table",
+    "columns": [
+      {
+        "types": [
+          111
+        ],
+        "defaultValue": null,
+        "flags": 3,
+        "debugname": "item"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "metal"
+      },
+      {
+        "types": [
+          79,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "product"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "level"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "experience"
+      },
+      {
+        "types": [
+          65
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "skill_anim"
+      },
+      {
+        "types": [
+          80
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "skill_sound"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "debugname": "magic_staff_table",
+    "columns": [
+      {
+        "types": [
+          111
+        ],
+        "defaultValue": null,
+        "flags": 7,
+        "debugname": "staff"
+      },
+      {
+        "types": [
+          79
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "rune"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "debugname": "magic_spell_table",
+    "columns": [
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 3,
+        "debugname": "spell"
+      },
+      {
+        "types": [
+          73
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "spellcom"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "name"
+      },
+      {
+        "types": [
+          49
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "members"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "levelrequired"
+      },
+      {
+        "types": [
+          79,
+          105,
+          79,
+          105,
+          79,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "runesrequired"
+      },
+      {
+        "types": [
+          79
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "wornrequired"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "worn_reqmessage"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "experience"
+      },
+      {
+        "types": [
+          108
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "loc_type"
+      },
+      {
+        "types": [
+          111,
+          79,
+          65,
+          116,
+          80
+        ],
+        "defaultValue": null,
+        "flags": 4,
+        "debugname": "convertobj"
+      },
+      {
+        "types": [
+          99
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "tele_coord"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "additional_reqmessage"
+      },
+      {
+        "types": [
+          111,
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "specificobj_reqmessage"
+      },
+      {
+        "types": [
+          83,
+          105,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 4,
+        "debugname": "stat_change"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "freeze_time"
+      },
+      {
+        "types": [
+          65
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "anim"
+      },
+      {
+        "types": [
+          116,
+          105,
+          105,
+          105,
+          105,
+          105,
+          105,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "spotanim_proj"
+      },
+      {
+        "types": [
+          116
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "spotanim_origin"
+      },
+      {
+        "types": [
+          116,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "spotanim_target"
+      },
+      {
+        "types": [
+          80
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "sound_success"
+      },
+      {
+        "types": [
+          80
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "sound_fail"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "maxhit"
+      },
+      {
+        "types": [
+          49
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "continue_by_autocast"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "debugname": "mining_table",
+    "columns": [
+      {
+        "types": [
+          108
+        ],
+        "defaultValue": null,
+        "flags": 7,
+        "debugname": "rock"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "ore_name"
+      },
+      {
+        "types": [
+          79
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "rock_output"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "rock_level"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "rock_exp"
+      },
+      {
+        "types": [
+          105,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "rock_successchance"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "rock_respawnrate"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "debugname": "prayers",
+    "columns": [
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 3,
+        "debugname": "prayer"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 4,
+        "debugname": "prayer_deactivate"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "members"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "name"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "level"
+      },
+      {
+        "types": [
+          80
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "sound"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "debugname": "runecraft_table",
+    "columns": [
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 3,
+        "debugname": "type"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "members"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "level"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "experience"
+      },
+      {
+        "types": [
+          79
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "rune"
+      },
+      {
+        "types": [
+          111
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "talisman"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "name"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "multiplier"
+      },
+      {
+        "types": [
+          99
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "altar_coord"
+      },
+      {
+        "types": [
+          99,
+          105,
+          105,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 4,
+        "debugname": "enter_coord"
+      },
+      {
+        "types": [
+          99,
+          105,
+          105,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 4,
+        "debugname": "exit_coord"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "debugname": "smithing",
+    "columns": [
+      {
+        "types": [
+          111
+        ],
+        "defaultValue": null,
+        "flags": 3,
+        "debugname": "ifproduct"
+      },
+      {
+        "types": [
+          79
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "product"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "product_amount"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "levelrequired"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "end_message"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "levelfailmessage"
+      },
+      {
+        "types": [
+          79
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "bar"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "bar_amount"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "debugname": "trapped_chest",
+    "columns": [
+      {
+        "types": [
+          108
+        ],
+        "defaultValue": null,
+        "flags": 3,
+        "debugname": "loc"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "level"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "experience"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "respawn_ticks"
+      },
+      {
+        "types": [
+          79,
+          105,
+          105,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 4,
+        "debugname": "loot"
+      },
+      {
+        "types": [
+          99
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "tele_coord"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "debugname": "locked_door",
+    "columns": [
+      {
+        "types": [
+          108
+        ],
+        "defaultValue": null,
+        "flags": 3,
+        "debugname": "loc"
+      },
+      {
+        "types": [
+          108
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "replacement"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "level"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "experience"
+      },
+      {
+        "types": [
+          79,
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "tool"
+      },
+      {
+        "types": [
+          49
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "mirror"
+      },
+      {
+        "types": [
+          49
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "gate"
+      },
+      {
+        "types": [
+          49
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "lock_inversed"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "debugname": "pickpocket",
+    "columns": [
+      {
+        "types": [
+          110
+        ],
+        "defaultValue": null,
+        "flags": 7,
+        "debugname": "npc"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "level"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "experience"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "stun_ticks"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "stun_damage"
+      },
+      {
+        "types": [
+          105,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "success_chance"
+      },
+      {
+        "types": [
+          79,
+          105,
+          105,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 4,
+        "debugname": "loot"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "pocket"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "debugname": "stealing",
+    "columns": [
+      {
+        "types": [
+          108
+        ],
+        "defaultValue": null,
+        "flags": 3,
+        "debugname": "loc"
+      },
+      {
+        "types": [
+          110
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "owner"
+      },
+      {
+        "types": [
+          110
+        ],
+        "defaultValue": null,
+        "flags": 4,
+        "debugname": "guard"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "level"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "experience"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "respawn_ticks"
+      },
+      {
+        "types": [
+          79,
+          105,
+          105,
+          105,
+          115
+        ],
+        "defaultValue": null,
+        "flags": 4,
+        "debugname": "loot"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "loot_total"
+      },
+      {
+        "types": [
+          115
+        ],
+        "defaultValue": null,
+        "flags": 4,
+        "debugname": "stall"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "debugname": "woodcutting_trees",
+    "columns": [
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "levelrequired"
+      },
+      {
+        "types": [
+          108
+        ],
+        "defaultValue": null,
+        "flags": 7,
+        "debugname": "tree"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "productexp"
+      },
+      {
+        "types": [
+          79
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "product"
+      },
+      {
+        "types": [
+          105
+        ],
+        "defaultValue": null,
+        "flags": 0,
+        "debugname": "respawnrate"
+      },
+      {
+        "types": [
+          79,
+          105,
+          105
+        ],
+        "defaultValue": null,
+        "flags": 4,
+        "debugname": "successchance"
+      }
+    ]
+  }
+]

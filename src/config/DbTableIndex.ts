@@ -29,7 +29,9 @@ export default class DbTableIndex {
                 for (const row of DbRowStore.getAll()) {
                     if (!row || row.tableId !== table.id) continue;
 
-                    const values = row.columnValues.get(col);
+                    // columnValues may be a Map or a plain object from JSON
+                    const cv = row.columnValues as any;
+                    const values = cv instanceof Map ? cv.get(col) : cv[col];
                     if (!values) continue;
 
                     const key = values.join(',');

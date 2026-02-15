@@ -1,1 +1,2657 @@
-[]
+[
+  {
+    "id": 0,
+    "debugname": "mcannon",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 1,
+    "debugname": "mcannonmulti",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 2,
+    "debugname": "dropcannon",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 3,
+    "debugname": "rockthrower",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 4,
+    "debugname": "ownedmcannon",
+    "scope": 1,
+    "type": 99,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 5,
+    "debugname": "grail",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 6,
+    "debugname": "coal_truck",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 7,
+    "debugname": "bunny_ears_unlocked",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 8,
+    "debugname": "scythe_unlocked",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 9,
+    "debugname": "beehive_free",
+    "scope": 1,
+    "type": 49,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 10,
+    "debugname": "cogquest",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 11,
+    "debugname": "fishingcompo",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 12,
+    "debugname": "hemenster_comp_stage",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 13,
+    "debugname": "hemenster_pipe_stashed",
+    "scope": 1,
+    "type": 49,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 14,
+    "debugname": "arthur",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 15,
+    "debugname": "excalibur_components_progress",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 16,
+    "debugname": "arhein_crate_coord",
+    "scope": 1,
+    "type": 99,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 17,
+    "debugname": "arenaquest",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 18,
+    "debugname": "musicplay",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 19,
+    "debugname": "varp_19",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 20,
+    "debugname": "musicmulti_1",
+    "scope": 1,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 21,
+    "debugname": "musicmulti_2",
+    "scope": 1,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 22,
+    "debugname": "musicmulti_3",
+    "scope": 1,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 23,
+    "debugname": "musicmulti_4",
+    "scope": 1,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 24,
+    "debugname": "musicmulti_5",
+    "scope": 1,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 25,
+    "debugname": "musicmulti_6",
+    "scope": 1,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 26,
+    "debugname": "ikov",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 27,
+    "debugname": "ikov_dungeon",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 28,
+    "debugname": "ikov_icearrowchest_coord",
+    "scope": 1,
+    "type": 99,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 29,
+    "debugname": "cookquest",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 30,
+    "debugname": "drunkmonkquest",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 31,
+    "debugname": "doricquest",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 32,
+    "debugname": "haunted",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 33,
+    "debugname": "ernestlever",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 34,
+    "debugname": "haunted_manor_fountain_poisoned",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 35,
+    "debugname": "cog_cooled",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 36,
+    "debugname": "damagetype",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 37,
+    "debugname": "damagestyle",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 38,
+    "debugname": "lastcombat",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 39,
+    "debugname": "lastcombat_pvp",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 40,
+    "debugname": "eat_delay",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 41,
+    "debugname": "aggressive_npc",
+    "scope": 0,
+    "type": 78,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 42,
+    "debugname": "frozen",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 43,
+    "debugname": "com_mode",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 44,
+    "debugname": "com_stabattack",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 45,
+    "debugname": "com_stabdef",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 46,
+    "debugname": "com_slashattack",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 47,
+    "debugname": "com_slashdef",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 48,
+    "debugname": "com_crushattack",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 49,
+    "debugname": "com_crushdef",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 50,
+    "debugname": "com_magicattack",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 51,
+    "debugname": "com_magicdef",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 52,
+    "debugname": "com_rangeattack",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 53,
+    "debugname": "com_rangedef",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 54,
+    "debugname": "com_attackanim",
+    "scope": 0,
+    "type": 65,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 55,
+    "debugname": "com_defendanim",
+    "scope": 0,
+    "type": 65,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 56,
+    "debugname": "com_attacksound",
+    "scope": 0,
+    "type": 80,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 57,
+    "debugname": "com_maxhit",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 58,
+    "debugname": "action_delay",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 59,
+    "debugname": "autocast_spell",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 60,
+    "debugname": "sheepherderquest",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 61,
+    "debugname": "sheepherdervar",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 62,
+    "debugname": "goblinquest",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 63,
+    "debugname": "runemysteries",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 64,
+    "debugname": "exit_essence_mine_coord",
+    "scope": 1,
+    "type": 99,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 65,
+    "debugname": "waterfall_quest",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 66,
+    "debugname": "waterfall_golrie_and_puzzle",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 67,
+    "debugname": "hetty",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 68,
+    "debugname": "biohazard",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 69,
+    "debugname": "bioerrand",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 70,
+    "debugname": "biodummy",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 71,
+    "debugname": "hunt",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 72,
+    "debugname": "hunt_store_employed",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 73,
+    "debugname": "crate_bananas",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 74,
+    "debugname": "crate_rum",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 75,
+    "debugname": "journey_number",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 76,
+    "debugname": "scorpcatcher",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 77,
+    "debugname": "barcrawl",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 78,
+    "debugname": "pk_skull",
+    "scope": 1,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 79,
+    "debugname": "xplamp",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 80,
+    "debugname": "druidquest",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 81,
+    "debugname": "warning_wilderness_teleport_lever",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 82,
+    "debugname": "prayer_guild",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 83,
+    "debugname": "prayer0",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 84,
+    "debugname": "prayer1",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 85,
+    "debugname": "prayer2",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 86,
+    "debugname": "prayer3",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 87,
+    "debugname": "prayer4",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 88,
+    "debugname": "prayer5",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 89,
+    "debugname": "prayer6",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 90,
+    "debugname": "prayer7",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 91,
+    "debugname": "prayer8",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 92,
+    "debugname": "prayer9",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 93,
+    "debugname": "prayer10",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 94,
+    "debugname": "prayer11",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 95,
+    "debugname": "prayer12",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 96,
+    "debugname": "prayer13",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 97,
+    "debugname": "prayer14",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 98,
+    "debugname": "prayer_drain_counter",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 99,
+    "debugname": "prayer_drain_effect",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 100,
+    "debugname": "prayer_drain_resistance",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 101,
+    "debugname": "qp",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 102,
+    "debugname": "poison",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 103,
+    "debugname": "stunned",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 104,
+    "debugname": "multiway",
+    "scope": 0,
+    "type": 49,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 105,
+    "debugname": "wilderness",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 106,
+    "debugname": "newcomers_pos",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 107,
+    "debugname": "prieststart",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 108,
+    "debugname": "attackstyle_magic",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 109,
+    "debugname": "trawler",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 110,
+    "debugname": "trawler_catch",
+    "scope": 1,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 111,
+    "debugname": "treequest",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 112,
+    "debugname": "itgronigen",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 113,
+    "debugname": "itkeepgatelock",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 114,
+    "debugname": "scorpius_given_symbol",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 115,
+    "debugname": "bankcert",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 116,
+    "debugname": "zombiequeen",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 117,
+    "debugname": "zq_map_mechanisms",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 118,
+    "debugname": "zq_rash_timer",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 119,
+    "debugname": "pk_predator1",
+    "scope": 0,
+    "type": 112,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 120,
+    "debugname": "pk_predator2",
+    "scope": 0,
+    "type": 112,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 121,
+    "debugname": "pk_predator3",
+    "scope": 0,
+    "type": 112,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 122,
+    "debugname": "squire",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 123,
+    "debugname": "pk_binder",
+    "scope": 0,
+    "type": 112,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 124,
+    "debugname": "skill_anim",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 125,
+    "debugname": "skill_sound",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 126,
+    "debugname": "shop",
+    "scope": 0,
+    "type": 118,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 127,
+    "debugname": "shop_buy",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 128,
+    "debugname": "shop_sell",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 129,
+    "debugname": "shop_haggle",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 130,
+    "debugname": "spy",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 131,
+    "debugname": "itexamlevel",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 132,
+    "debugname": "itexam_errands",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 133,
+    "debugname": "itexam_bits",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 134,
+    "debugname": "varp_134",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 135,
+    "debugname": "varp_135",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 136,
+    "debugname": "varp_136",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 137,
+    "debugname": "varp_137",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 138,
+    "debugname": "thieving_stall_timer",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 139,
+    "debugname": "legendsquest",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 140,
+    "debugname": "legends_bits",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 141,
+    "debugname": "gnome_bar_progress",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 142,
+    "debugname": "gnome_restaurant_progress",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 143,
+    "debugname": "score_gnomeball_game",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 144,
+    "debugname": "rjquest",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 145,
+    "debugname": "blackarmgang",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 146,
+    "debugname": "phoenixgang",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 147,
+    "debugname": "zanaris",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 148,
+    "debugname": "crestquest",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 149,
+    "debugname": "crest_spells_levers_gauntlets",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 150,
+    "debugname": "grandtree",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 151,
+    "debugname": "daconia_rock_root",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 152,
+    "debugname": "femi_help",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 153,
+    "debugname": "pilot_journey",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 154,
+    "debugname": "shantay_jail_progress",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 155,
+    "debugname": "gnomeball_progress",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 156,
+    "debugname": "targetcount",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 157,
+    "debugname": "targetscore",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 158,
+    "debugname": "targethit",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 159,
+    "debugname": "seaslugquest",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 160,
+    "debugname": "imp",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 161,
+    "debugname": "upass",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 162,
+    "debugname": "ibanmulti",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 163,
+    "debugname": "open_book",
+    "scope": 0,
+    "type": 111,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 164,
+    "debugname": "book_page",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 165,
+    "debugname": "elenaquest",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 166,
+    "debugname": "option_brightness",
+    "scope": 1,
+    "type": 105,
+    "protect": false,
+    "clientcode": 1,
+    "transmit": true
+  },
+  {
+    "id": 167,
+    "debugname": "option_jingles",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 2,
+    "transmit": false
+  },
+  {
+    "id": 168,
+    "debugname": "option_music",
+    "scope": 1,
+    "type": 105,
+    "protect": false,
+    "clientcode": 3,
+    "transmit": true
+  },
+  {
+    "id": 169,
+    "debugname": "option_sounds",
+    "scope": 1,
+    "type": 105,
+    "protect": false,
+    "clientcode": 4,
+    "transmit": true
+  },
+  {
+    "id": 170,
+    "debugname": "option_mouse",
+    "scope": 1,
+    "type": 105,
+    "protect": false,
+    "clientcode": 5,
+    "transmit": true
+  },
+  {
+    "id": 171,
+    "debugname": "option_chat",
+    "scope": 1,
+    "type": 105,
+    "protect": false,
+    "clientcode": 6,
+    "transmit": true
+  },
+  {
+    "id": 172,
+    "debugname": "option_nodef",
+    "scope": 1,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 173,
+    "debugname": "option_run",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 7,
+    "transmit": true
+  },
+  {
+    "id": 174,
+    "debugname": "varp_174",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 175,
+    "debugname": "junglepotion",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 176,
+    "debugname": "dragonquest",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 177,
+    "debugname": "dragonquestvar",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 178,
+    "debugname": "vampire",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 179,
+    "debugname": "sheep",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 180,
+    "debugname": "fluffs",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 181,
+    "debugname": "fluffs_crate",
+    "scope": 1,
+    "type": 99,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 182,
+    "debugname": "cat_growth",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 183,
+    "debugname": "dragon_ned_hired",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 184,
+    "debugname": "dragon_oracle",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 185,
+    "debugname": "dragon_wall",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 186,
+    "debugname": "dragon_shield",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 187,
+    "debugname": "dragon_goblin",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 188,
+    "debugname": "heroquest",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 189,
+    "debugname": "varp_189",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 190,
+    "debugname": "varp_190",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 191,
+    "debugname": "varp_191",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 192,
+    "debugname": "murderquest",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 193,
+    "debugname": "murder_poisonproof_progress",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 194,
+    "debugname": "murder_evidence",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 195,
+    "debugname": "murdersus",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 196,
+    "debugname": "desert",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 197,
+    "debugname": "desertrescue",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 198,
+    "debugname": "desertrescue_map_mechanisms",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 199,
+    "debugname": "varp_199",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 200,
+    "debugname": "totemquest",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 201,
+    "debugname": "handelmort_traps_disabled",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 202,
+    "debugname": "hopper_full",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 203,
+    "debugname": "flour",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 204,
+    "debugname": "macro_event",
+    "scope": 1,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 205,
+    "debugname": "macro_event_uid",
+    "scope": 0,
+    "type": 78,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 206,
+    "debugname": "macro_whirlpool_counter",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 207,
+    "debugname": "macro_gas_counter",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 208,
+    "debugname": "macro_ent_counter",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 209,
+    "debugname": "macro_chest_gas_coord",
+    "scope": 1,
+    "type": 99,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 210,
+    "debugname": "smithbars",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 211,
+    "debugname": "modified_smith",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 212,
+    "debugname": "itwatchtower",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 213,
+    "debugname": "itwatchtower_bits",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 214,
+    "debugname": "gutanoth_gold",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 215,
+    "debugname": "gnomeball_owedball",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 216,
+    "debugname": "varp_216",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 217,
+    "debugname": "pk_prey1",
+    "scope": 0,
+    "type": 112,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 218,
+    "debugname": "pk_prey2",
+    "scope": 0,
+    "type": 112,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 219,
+    "debugname": "death",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 220,
+    "debugname": "varp_220",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 221,
+    "debugname": "varp_221",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 222,
+    "debugname": "demonstart",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 223,
+    "debugname": "hazeelcultquest",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 224,
+    "debugname": "hazeelcult_valves",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 225,
+    "debugname": "hazeelcult_side",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 226,
+    "debugname": "ballquest",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 227,
+    "debugname": "gnome_cocktail_bits1",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 228,
+    "debugname": "gnome_cocktail_bits2",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 229,
+    "debugname": "gnome_batta_bits1",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 230,
+    "debugname": "gnome_batta_bits2",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 231,
+    "debugname": "gnome_bowl_bits1",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 232,
+    "debugname": "gnome_bowl_bits2",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 233,
+    "debugname": "gnome_crunchies_bits1",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 234,
+    "debugname": "gnome_crunchies_bits2",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 235,
+    "debugname": "varp_235",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 236,
+    "debugname": "varp_236",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 237,
+    "debugname": "varp_237",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 238,
+    "debugname": "varp_238",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 239,
+    "debugname": "varp_239",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 240,
+    "debugname": "varp_240",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 241,
+    "debugname": "varp_241",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 242,
+    "debugname": "varp_242",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 243,
+    "debugname": "varp_243",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 244,
+    "debugname": "varp_244",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 245,
+    "debugname": "varp_245",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 246,
+    "debugname": "varp_246",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 247,
+    "debugname": "varp_247",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 248,
+    "debugname": "varp_248",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 249,
+    "debugname": "varp_249",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 250,
+    "debugname": "varp_250",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 251,
+    "debugname": "varp_251",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 252,
+    "debugname": "varp_252",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 253,
+    "debugname": "varp_253",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 254,
+    "debugname": "varp_254",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 255,
+    "debugname": "varp_255",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 256,
+    "debugname": "thread_used",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 257,
+    "debugname": "tradepartner",
+    "scope": 0,
+    "type": 112,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 258,
+    "debugname": "tradestatus",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 259,
+    "debugname": "varp_259",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 260,
+    "debugname": "temp",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 261,
+    "debugname": "if1",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 262,
+    "debugname": "if2",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 263,
+    "debugname": "if3",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 264,
+    "debugname": "gnome_course_progress",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 265,
+    "debugname": "barbarian_course_progress",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 266,
+    "debugname": "wilderness_course_progress",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 267,
+    "debugname": "magearena",
+    "scope": 1,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 268,
+    "debugname": "saramage",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 269,
+    "debugname": "guthmage",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 270,
+    "debugname": "zamomage",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 271,
+    "debugname": "varp_271",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 272,
+    "debugname": "magearena_charge",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 273,
+    "debugname": "princequest",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 274,
+    "debugname": "prince_keystatus",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 275,
+    "debugname": "follower_obj",
+    "scope": 1,
+    "type": 79,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 276,
+    "debugname": "follower_uid",
+    "scope": 0,
+    "type": 78,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 277,
+    "debugname": "dragonresist",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 278,
+    "debugname": "varp_278",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 279,
+    "debugname": "varp_279",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 280,
+    "debugname": "varp_280",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 281,
+    "debugname": "tutorial",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 282,
+    "debugname": "rotten_tomato_delay",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 283,
+    "debugname": "varp_283",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 284,
+    "debugname": "duel2accept",
+    "scope": 0,
+    "type": 112,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 285,
+    "debugname": "duelstatus",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 286,
+    "debugname": "dueloptions",
+    "scope": 0,
+    "type": 105,
+    "protect": false,
+    "clientcode": 0,
+    "transmit": true
+  },
+  {
+    "id": 287,
+    "debugname": "option_pm",
+    "scope": 1,
+    "type": 105,
+    "protect": false,
+    "clientcode": 8,
+    "transmit": true
+  },
+  {
+    "id": 288,
+    "debugname": "iban_staff_charges",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 289,
+    "debugname": "varp_289",
+    "scope": 0,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 290,
+    "debugname": "ring_of_recoil",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 291,
+    "debugname": "ring_of_forging",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 292,
+    "debugname": "trail_status",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 293,
+    "debugname": "chompybird",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  },
+  {
+    "id": 294,
+    "debugname": "chompybird_kills",
+    "scope": 1,
+    "type": 105,
+    "protect": true,
+    "clientcode": 0,
+    "transmit": false
+  }
+]

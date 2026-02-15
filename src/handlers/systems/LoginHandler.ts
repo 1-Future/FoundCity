@@ -6,9 +6,15 @@
 import Player from '#/engine/entity/Player.js';
 import ScriptProvider, { ScriptContext } from '#/engine/script/ScriptProvider.js';
 import ServerTriggerType from '#/engine/script/ServerTriggerType.js';
+import Environment from '#/util/Environment.js';
 
 ScriptProvider.register(ServerTriggerType.LOGIN, -1, (ctx: ScriptContext) => {
     const player = ctx.self as Player;
+
+    // grant admin access in dev mode so cheat commands work
+    if (Environment.NODE_ALLOW_CHEATS && !Environment.NODE_PRODUCTION) {
+        player.staffModLevel = 4;
+    }
 
     // send welcome message
     player.write({ type: 'message_game', message: 'Welcome to the server.' });

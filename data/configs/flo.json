@@ -1,1 +1,626 @@
-[]
+[
+  {
+    "id": 0,
+    "debugname": "cliff",
+    "rgb": 11184810,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 1,
+    "debugname": "cliff2",
+    "rgb": 4473924,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 2,
+    "debugname": "cliff3",
+    "rgb": 6710886,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 3,
+    "debugname": "cliff4",
+    "rgb": 8947848,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 4,
+    "debugname": "woodenfloor",
+    "rgb": 0,
+    "texture": 3,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 5,
+    "debugname": "water",
+    "rgb": 0,
+    "texture": 1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 6,
+    "debugname": "gungywater",
+    "rgb": 0,
+    "texture": 25,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 7,
+    "debugname": "greyroof",
+    "rgb": 5987163,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 8,
+    "debugname": "desertroof",
+    "rgb": 16777205,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 9,
+    "debugname": "road",
+    "rgb": 5263440,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 10,
+    "debugname": "darkstone",
+    "rgb": 2236962,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 11,
+    "debugname": "pebblefloor",
+    "rgb": 0,
+    "texture": 46,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 12,
+    "debugname": "redfloor",
+    "rgb": 10040115,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 13,
+    "debugname": "mudfloor",
+    "rgb": 4008715,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 14,
+    "debugname": "mudfloor_bump",
+    "rgb": 4008715,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 15,
+    "debugname": "mudfloor2",
+    "rgb": 6697728,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 16,
+    "debugname": "mudfloor2_bump",
+    "rgb": 6697728,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 17,
+    "debugname": "bluefloor",
+    "rgb": 204,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 18,
+    "debugname": "lava",
+    "rgb": 0,
+    "texture": 31,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 19,
+    "debugname": "marble",
+    "rgb": 0,
+    "texture": 15,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 20,
+    "debugname": "sandfloor",
+    "rgb": 10053120,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 21,
+    "debugname": "l_brownfloor1",
+    "rgb": 7166763,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 22,
+    "debugname": "l_brownfloor1_bump",
+    "rgb": 7166763,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 23,
+    "debugname": "cliff_textured",
+    "rgb": 0,
+    "texture": 47,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 24,
+    "debugname": "sand_cliff",
+    "rgb": 13351542,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 25,
+    "debugname": "sand_rock",
+    "rgb": 8550724,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 26,
+    "debugname": "oldbrick",
+    "rgb": 0,
+    "texture": 23,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 27,
+    "debugname": "brick",
+    "rgb": 0,
+    "texture": 2,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 28,
+    "debugname": "grass",
+    "rgb": 3502602,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 29,
+    "debugname": "ice_overlay",
+    "rgb": 15658734,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 30,
+    "debugname": "upass_floor",
+    "rgb": 6638859,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 31,
+    "debugname": "stone_texture",
+    "rgb": 0,
+    "texture": 11,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 32,
+    "debugname": "ice_overlay_blue",
+    "rgb": 13229559,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 33,
+    "debugname": "road_bridge",
+    "rgb": 5263440,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 34,
+    "debugname": "woodenfloor_bridge",
+    "rgb": 0,
+    "texture": 3,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 35,
+    "debugname": "mud5_overlay",
+    "rgb": 6702097,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 36,
+    "debugname": "black",
+    "rgb": 0,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 37,
+    "debugname": "lightblue",
+    "rgb": 5601177,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 38,
+    "debugname": "water_fountain",
+    "rgb": 0,
+    "texture": 17,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 39,
+    "debugname": "bluefloor2",
+    "rgb": 4671907,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 40,
+    "debugname": "waterfallblue",
+    "rgb": 4153729,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 41,
+    "debugname": "invisible",
+    "rgb": 16711935,
+    "texture": -1,
+    "overlay": true,
+    "occlude": false
+  },
+  {
+    "id": 42,
+    "debugname": "invisible_occ",
+    "rgb": 16711935,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 43,
+    "debugname": "road_no_occlude",
+    "rgb": 5263440,
+    "texture": -1,
+    "overlay": true,
+    "occlude": false
+  },
+  {
+    "id": 44,
+    "debugname": "woodenfloor_no_occlude",
+    "rgb": 0,
+    "texture": 3,
+    "overlay": true,
+    "occlude": false
+  },
+  {
+    "id": 45,
+    "debugname": "oldbrick_no_occlude",
+    "rgb": 0,
+    "texture": 23,
+    "overlay": true,
+    "occlude": false
+  },
+  {
+    "id": 46,
+    "debugname": "brick_no_occlude",
+    "rgb": 0,
+    "texture": 2,
+    "overlay": true,
+    "occlude": false
+  },
+  {
+    "id": 47,
+    "debugname": "grassland",
+    "rgb": 3502602,
+    "texture": -1,
+    "overlay": false,
+    "occlude": true
+  },
+  {
+    "id": 48,
+    "debugname": "muddygrass",
+    "rgb": 5793803,
+    "texture": -1,
+    "overlay": false,
+    "occlude": true
+  },
+  {
+    "id": 49,
+    "debugname": "vmuddygrass",
+    "rgb": 7890955,
+    "texture": -1,
+    "overlay": false,
+    "occlude": true
+  },
+  {
+    "id": 50,
+    "debugname": "lightgrass",
+    "rgb": 7121936,
+    "texture": -1,
+    "overlay": false,
+    "occlude": true
+  },
+  {
+    "id": 51,
+    "debugname": "sandygrass",
+    "rgb": 8492337,
+    "texture": -1,
+    "overlay": false,
+    "occlude": true
+  },
+  {
+    "id": 52,
+    "debugname": "swamp",
+    "rgb": 5591562,
+    "texture": -1,
+    "overlay": false,
+    "occlude": true
+  },
+  {
+    "id": 53,
+    "debugname": "swamp2",
+    "rgb": 1202241,
+    "texture": -1,
+    "overlay": false,
+    "occlude": true
+  },
+  {
+    "id": 54,
+    "debugname": "lightrock",
+    "rgb": 7763574,
+    "texture": -1,
+    "overlay": false,
+    "occlude": true
+  },
+  {
+    "id": 55,
+    "debugname": "darkrock",
+    "rgb": 5066061,
+    "texture": -1,
+    "overlay": false,
+    "occlude": true
+  },
+  {
+    "id": 56,
+    "debugname": "verydarkrock",
+    "rgb": 3026478,
+    "texture": -1,
+    "overlay": false,
+    "occlude": true
+  },
+  {
+    "id": 57,
+    "debugname": "ice",
+    "rgb": 15658734,
+    "texture": -1,
+    "overlay": false,
+    "occlude": false
+  },
+  {
+    "id": 58,
+    "debugname": "blueice",
+    "rgb": 13752039,
+    "texture": -1,
+    "overlay": false,
+    "occlude": true
+  },
+  {
+    "id": 59,
+    "debugname": "greenice",
+    "rgb": 13756374,
+    "texture": -1,
+    "overlay": false,
+    "occlude": true
+  },
+  {
+    "id": 60,
+    "debugname": "desert1",
+    "rgb": 11378773,
+    "texture": -1,
+    "overlay": false,
+    "occlude": true
+  },
+  {
+    "id": 61,
+    "debugname": "desert2",
+    "rgb": 13680756,
+    "texture": -1,
+    "overlay": false,
+    "occlude": true
+  },
+  {
+    "id": 62,
+    "debugname": "mud1",
+    "rgb": 4008715,
+    "texture": -1,
+    "overlay": false,
+    "occlude": true
+  },
+  {
+    "id": 63,
+    "debugname": "mud2",
+    "rgb": 6573598,
+    "texture": -1,
+    "overlay": false,
+    "occlude": true
+  },
+  {
+    "id": 64,
+    "debugname": "mud3",
+    "rgb": 6638859,
+    "texture": -1,
+    "overlay": false,
+    "occlude": true
+  },
+  {
+    "id": 65,
+    "debugname": "mud4",
+    "rgb": 6697728,
+    "texture": -1,
+    "overlay": false,
+    "occlude": true
+  },
+  {
+    "id": 66,
+    "debugname": "mud5",
+    "rgb": 6702097,
+    "texture": -1,
+    "overlay": false,
+    "occlude": false
+  },
+  {
+    "id": 67,
+    "debugname": "sand",
+    "rgb": 13351542,
+    "texture": -1,
+    "overlay": false,
+    "occlude": true
+  },
+  {
+    "id": 68,
+    "debugname": "mud2_skew",
+    "rgb": 6573598,
+    "texture": -1,
+    "overlay": false,
+    "occlude": false
+  },
+  {
+    "id": 69,
+    "debugname": "mud3_skew",
+    "rgb": 6638859,
+    "texture": -1,
+    "overlay": false,
+    "occlude": false
+  },
+  {
+    "id": 70,
+    "debugname": "mud4_skew",
+    "rgb": 6697728,
+    "texture": -1,
+    "overlay": false,
+    "occlude": false
+  },
+  {
+    "id": 71,
+    "debugname": "black_rock",
+    "rgb": 197379,
+    "texture": -1,
+    "overlay": false,
+    "occlude": false
+  },
+  {
+    "id": 72,
+    "debugname": "dullblue",
+    "rgb": 5601177,
+    "texture": -1,
+    "overlay": false,
+    "occlude": true
+  },
+  {
+    "id": 73,
+    "debugname": "purple_pink",
+    "rgb": 10048870,
+    "texture": -1,
+    "overlay": false,
+    "occlude": true
+  },
+  {
+    "id": 74,
+    "debugname": "lightblue_underlay",
+    "rgb": 5601177,
+    "texture": -1,
+    "overlay": false,
+    "occlude": true
+  },
+  {
+    "id": 75,
+    "debugname": "desert_shadow",
+    "rgb": 12889166,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 76,
+    "debugname": "duel_arena",
+    "rgb": 12031847,
+    "texture": -1,
+    "overlay": true,
+    "occlude": true
+  },
+  {
+    "id": 77,
+    "debugname": "duelarena",
+    "rgb": 14269331,
+    "texture": -1,
+    "overlay": false,
+    "occlude": true
+  }
+]

@@ -1,1 +1,1650 @@
-[]
+[
+  {
+    "id": 0,
+    "debugname": "lose_cape_message",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "The gods reclaim the game as it touches the ground.",
+    "autodisable": true
+  },
+  {
+    "id": 1,
+    "debugname": "next_loc_stage",
+    "type": 108,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 2,
+    "debugname": "game_message",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 3,
+    "debugname": "open_sound",
+    "type": 80,
+    "defaultInt": 167,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 4,
+    "debugname": "close_sound",
+    "type": 80,
+    "defaultInt": 172,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 5,
+    "debugname": "chest_other",
+    "type": 108,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 6,
+    "debugname": "cupboard_other",
+    "type": 108,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 7,
+    "debugname": "drawer_other",
+    "type": 108,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 8,
+    "debugname": "board_message",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 9,
+    "debugname": "millbase_coord",
+    "type": 99,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 10,
+    "debugname": "hopper_coord",
+    "type": 99,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 11,
+    "debugname": "is_water_source",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 12,
+    "debugname": "whirlpool",
+    "type": 110,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 13,
+    "debugname": "is_whirlpool",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 14,
+    "debugname": "broken",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 15,
+    "debugname": "to_be_fixed_by_bob",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 16,
+    "debugname": "to_be_fixed_by_nurmof",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 17,
+    "debugname": "fixed",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 18,
+    "debugname": "axe_head",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 19,
+    "debugname": "pickaxe_head",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 20,
+    "debugname": "ent",
+    "type": 110,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 21,
+    "debugname": "ent_tree_loc",
+    "type": 108,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 22,
+    "debugname": "follow_player_on_logout",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 23,
+    "debugname": "gnome_fallen",
+    "type": 110,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 24,
+    "debugname": "gnome_tackled",
+    "type": 110,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 25,
+    "debugname": "gnome_hasball",
+    "type": 110,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 26,
+    "debugname": "gnome_original",
+    "type": 110,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 27,
+    "debugname": "trail_coord",
+    "type": 99,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 28,
+    "debugname": "trail_sextant",
+    "type": 49,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 29,
+    "debugname": "trail_desc",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 30,
+    "debugname": "trail_casket",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 31,
+    "debugname": "trail_guardian",
+    "type": 110,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 32,
+    "debugname": "puzzle_piece_id",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 33,
+    "debugname": "trail_challenge_answer",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 34,
+    "debugname": "ready_baseanim",
+    "type": 65,
+    "defaultInt": 808,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 35,
+    "debugname": "turnonspot_baseanim",
+    "type": 65,
+    "defaultInt": 823,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 36,
+    "debugname": "walk_f_baseanim",
+    "type": 65,
+    "defaultInt": 819,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 37,
+    "debugname": "walk_b_baseanim",
+    "type": 65,
+    "defaultInt": 820,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 38,
+    "debugname": "walk_l_baseanim",
+    "type": 65,
+    "defaultInt": 821,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 39,
+    "debugname": "walk_r_baseanim",
+    "type": 65,
+    "defaultInt": 822,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 40,
+    "debugname": "running_baseanim",
+    "type": 65,
+    "defaultInt": 824,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 41,
+    "debugname": "next_obj_stage",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 42,
+    "debugname": "cures_poison",
+    "type": 49,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 43,
+    "debugname": "destroy_death",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 44,
+    "debugname": "follower_id",
+    "type": 110,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 45,
+    "debugname": "pet_item_id",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 46,
+    "debugname": "cat_next_id",
+    "type": 110,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 47,
+    "debugname": "lever_index",
+    "type": 105,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 48,
+    "debugname": "hazeelcult_valve_idx",
+    "type": 105,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 49,
+    "debugname": "crystal_bit",
+    "type": 105,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 50,
+    "debugname": "game_message2",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 51,
+    "debugname": "murder_id_value",
+    "type": 105,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 52,
+    "debugname": "lit_arrow",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 53,
+    "debugname": "unlit_arrow",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 54,
+    "debugname": "orb_bit",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 55,
+    "debugname": "owned_shop",
+    "type": 118,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 56,
+    "debugname": "shop_sell_multiplier",
+    "type": 105,
+    "defaultInt": 100,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 57,
+    "debugname": "shop_buy_multiplier",
+    "type": 105,
+    "defaultInt": 60,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 58,
+    "debugname": "shop_delta",
+    "type": 105,
+    "defaultInt": 10,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 59,
+    "debugname": "shop_title",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "Shop.",
+    "autodisable": true
+  },
+  {
+    "id": 60,
+    "debugname": "start_coord",
+    "type": 99,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 61,
+    "debugname": "end_coord",
+    "type": 99,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 62,
+    "debugname": "fail_coord",
+    "type": 99,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 63,
+    "debugname": "agil_level_req",
+    "type": 105,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 64,
+    "debugname": "obstacle_low_fail",
+    "type": 105,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 65,
+    "debugname": "obstacle_high_fail",
+    "type": 105,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 66,
+    "debugname": "agil_xp",
+    "type": 105,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 67,
+    "debugname": "dir",
+    "type": 105,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 68,
+    "debugname": "stabattack",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 69,
+    "debugname": "slashattack",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 70,
+    "debugname": "crushattack",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 71,
+    "debugname": "magicattack",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 72,
+    "debugname": "rangeattack",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 73,
+    "debugname": "stabdefence",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 74,
+    "debugname": "slashdefence",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 75,
+    "debugname": "crushdefence",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 76,
+    "debugname": "magicdefence",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 77,
+    "debugname": "rangedefence",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 78,
+    "debugname": "strengthbonus",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 79,
+    "debugname": "attackbonus",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 80,
+    "debugname": "prayerbonus",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 81,
+    "debugname": "rangebonus",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 82,
+    "debugname": "attackrange",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 83,
+    "debugname": "attackrate",
+    "type": 105,
+    "defaultInt": 4,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 84,
+    "debugname": "levelrequire",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 85,
+    "debugname": "stabattack_anim",
+    "type": 65,
+    "defaultInt": 422,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 86,
+    "debugname": "stab_sound",
+    "type": 80,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 87,
+    "debugname": "slashattack_anim",
+    "type": 65,
+    "defaultInt": 422,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 88,
+    "debugname": "slash_sound",
+    "type": 80,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 89,
+    "debugname": "crushattack_anim",
+    "type": 65,
+    "defaultInt": 423,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 90,
+    "debugname": "crush_sound",
+    "type": 80,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 91,
+    "debugname": "defend_anim",
+    "type": 65,
+    "defaultInt": 425,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 92,
+    "debugname": "rangeattack_anim",
+    "type": 65,
+    "defaultInt": 422,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 93,
+    "debugname": "rangeattack_sound",
+    "type": 80,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 94,
+    "debugname": "proj_launch",
+    "type": 116,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 95,
+    "debugname": "proj_travel",
+    "type": 116,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 96,
+    "debugname": "proj_height",
+    "type": 105,
+    "defaultInt": 96,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 97,
+    "debugname": "undead",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 98,
+    "debugname": "zamorakitem",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 99,
+    "debugname": "poison_severity",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 100,
+    "debugname": "max_dealt",
+    "type": 105,
+    "defaultInt": 1000,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 101,
+    "debugname": "combat_xp_multiplier",
+    "type": 105,
+    "defaultInt": 1000,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 102,
+    "debugname": "magicattack_anim",
+    "type": 65,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 103,
+    "debugname": "npc_ammo",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 104,
+    "debugname": "damagetype",
+    "type": 105,
+    "defaultInt": 2,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 105,
+    "debugname": "attack_anim",
+    "type": 65,
+    "defaultInt": 422,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 106,
+    "debugname": "death_anim",
+    "type": 65,
+    "defaultInt": 836,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 107,
+    "debugname": "spawn_anim",
+    "type": 65,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 108,
+    "debugname": "attack_sound",
+    "type": 80,
+    "defaultInt": 221,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 109,
+    "debugname": "defend_sound",
+    "type": 80,
+    "defaultInt": 365,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 110,
+    "debugname": "death_sound",
+    "type": 80,
+    "defaultInt": 37,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 111,
+    "debugname": "death_drop",
+    "type": 79,
+    "defaultInt": 526,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 112,
+    "debugname": "demonbane_vulnerable",
+    "type": 49,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 113,
+    "debugname": "retreat",
+    "type": 105,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 114,
+    "debugname": "weapon_poisoned",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 115,
+    "debugname": "weapon_poisoned_message",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 116,
+    "debugname": "uncooked_pie_struct",
+    "type": 74,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 117,
+    "debugname": "pizza_topping_struct",
+    "type": 74,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 118,
+    "debugname": "ugthanki_kebab_struct",
+    "type": 74,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 119,
+    "debugname": "product2",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 120,
+    "debugname": "gnome_cooking_struct",
+    "type": 74,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 121,
+    "debugname": "cocktail_message",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 122,
+    "debugname": "batta_message",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 123,
+    "debugname": "crunchies_message",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 124,
+    "debugname": "bowl_message",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 125,
+    "debugname": "gnome_cooking_type",
+    "type": 105,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 126,
+    "debugname": "gnome_cooking_ingredient",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 127,
+    "debugname": "gnome_cocktail_ingredient",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 128,
+    "debugname": "gnome_topping",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 129,
+    "debugname": "ingredient",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 130,
+    "debugname": "productexp",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 131,
+    "debugname": "product",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 132,
+    "debugname": "crafting_staff_struct",
+    "type": 74,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 133,
+    "debugname": "processmessage",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "\"\"",
+    "autodisable": true
+  },
+  {
+    "id": 134,
+    "debugname": "secondary_ingredient",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 135,
+    "debugname": "color",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 136,
+    "debugname": "cape",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 137,
+    "debugname": "crafting_capes_struct",
+    "type": 74,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 138,
+    "debugname": "levelfailure",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 139,
+    "debugname": "productmessage",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 140,
+    "debugname": "levelrequired",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 141,
+    "debugname": "skill_anim",
+    "type": 65,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 142,
+    "debugname": "levelfailmessage",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 143,
+    "debugname": "crafting_glass_struct",
+    "type": 74,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 144,
+    "debugname": "gem",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 145,
+    "debugname": "strung",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 146,
+    "debugname": "stringing_name",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 147,
+    "debugname": "crafting_jewelry_struct",
+    "type": 74,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 148,
+    "debugname": "processexp",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 149,
+    "debugname": "namedobj",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 150,
+    "debugname": "crafting_pottery_struct",
+    "type": 74,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 151,
+    "debugname": "crafting_spinning_struct",
+    "type": 74,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 152,
+    "debugname": "crafting_studded_struct",
+    "type": 74,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 153,
+    "debugname": "fish_equipment_failmessage",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 154,
+    "debugname": "fish_wrong_spot_message",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 155,
+    "debugname": "fish_equipment_struct",
+    "type": 74,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 156,
+    "debugname": "fishing_struct",
+    "type": 74,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": false
+  },
+  {
+    "id": 157,
+    "debugname": "baitrequired",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 158,
+    "debugname": "baitmessage",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 159,
+    "debugname": "success_low",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 160,
+    "debugname": "success_high",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 161,
+    "debugname": "fishing_movement_enum",
+    "type": 103,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 162,
+    "debugname": "brew_potion_level",
+    "type": 105,
+    "defaultInt": 3,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 163,
+    "debugname": "brew_potion_exp",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 164,
+    "debugname": "brew_potion_solvent",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 165,
+    "debugname": "brew_potion_mixture",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 166,
+    "debugname": "brew_potion_message",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 167,
+    "debugname": "brew_potion_ingredient",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 168,
+    "debugname": "brew_potion_struct",
+    "type": 74,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 169,
+    "debugname": "brew_potion_struct_secondary",
+    "type": 74,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 170,
+    "debugname": "brew_potion_struct_tertiary",
+    "type": 74,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 171,
+    "debugname": "decant_potion_enum",
+    "type": 103,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 172,
+    "debugname": "dose_count",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 173,
+    "debugname": "grindable_ingredient_refined",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 174,
+    "debugname": "grindable_ingredient_message",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 175,
+    "debugname": "identified_herb_level",
+    "type": 105,
+    "defaultInt": 3,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 176,
+    "debugname": "identified_herb_exp",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 177,
+    "debugname": "identified_herb_message",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 178,
+    "debugname": "no_alchemy",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 179,
+    "debugname": "processfailure_superheat",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "You need to cast superheat item on ore.",
+    "autodisable": true
+  },
+  {
+    "id": 180,
+    "debugname": "telegrab_disabled",
+    "type": 49,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 181,
+    "debugname": "charge_orb_name",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "obelisk",
+    "autodisable": true
+  },
+  {
+    "id": 182,
+    "debugname": "charges",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 183,
+    "debugname": "mining_rock_empty",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 184,
+    "debugname": "next_loc_stage_mining",
+    "type": 108,
+    "defaultInt": 450,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 185,
+    "debugname": "macro_gas",
+    "type": 108,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 186,
+    "debugname": "mining_animation",
+    "type": 65,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 187,
+    "debugname": "mining_rate",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 188,
+    "debugname": "bone_exp",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 189,
+    "debugname": "rc_ruin_coord",
+    "type": 103,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 190,
+    "debugname": "rune_type",
+    "type": 105,
+    "defaultInt": 1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 191,
+    "debugname": "ingredient_secondary_count",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 192,
+    "debugname": "ingredient_secondary",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 193,
+    "debugname": "smelting_struct",
+    "type": 74,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 194,
+    "debugname": "smeltsto",
+    "type": 79,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 195,
+    "debugname": "name",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 196,
+    "debugname": "xpperbar",
+    "type": 105,
+    "defaultInt": 0,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 197,
+    "debugname": "invcolumn1",
+    "type": 118,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 198,
+    "debugname": "invcolumn2",
+    "type": 118,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 199,
+    "debugname": "invcolumn3",
+    "type": 118,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 200,
+    "debugname": "invcolumn4",
+    "type": 118,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 201,
+    "debugname": "invcolumn5",
+    "type": 118,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 202,
+    "debugname": "processfailure",
+    "type": 115,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 203,
+    "debugname": "bar_count",
+    "type": 105,
+    "defaultInt": 1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 204,
+    "debugname": "smithing_anvil_struct",
+    "type": 74,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  },
+  {
+    "id": 205,
+    "debugname": "woodcutting_struct",
+    "type": 74,
+    "defaultInt": -1,
+    "defaultString": "",
+    "autodisable": true
+  }
+]

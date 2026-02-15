@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lostcity debug client</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+    <!-- Canvas Area -->
+    <div id="canvas-area">
+        <canvas id="game-canvas"></canvas>
+    </div>
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+        <div id="stats-panel">
+            <h3>Stats</h3>
+            <table id="stats-table">
+                <thead>
+                    <tr><th>Skill</th><th>Cur</th><th>Base</th><th>XP</th></tr>
+                </thead>
+                <tbody id="stats-body"></tbody>
+            </table>
+        </div>
+        <div id="inv-panel">
+            <h3>Inventory</h3>
+            <div id="inv-grid"></div>
+        </div>
+        <button id="logout-btn">Logout</button>
+    </div>
+
+    <!-- Chat Area -->
+    <div id="chat-area">
+        <div id="chat-log"></div>
+        <div id="chat-input-area">
+            <input type="text" id="chat-input" placeholder="Press Enter to chat... (prefix :: for commands)" maxlength="80">
+        </div>
+    </div>
+</div>
+
+<!-- Login Overlay -->
+<div id="login-overlay">
+    <div id="login-form">
+        <h2>lostcity debug client</h2>
+        <label for="login-host">Server</label>
+        <input type="text" id="login-host" value="ws://localhost:8888" placeholder="ws://localhost:8888">
+        <label for="login-user">Username</label>
+        <input type="text" id="login-user" value="testplayer" placeholder="username">
+        <label for="login-pass">Password</label>
+        <input type="password" id="login-pass" value="test123" placeholder="password">
+        <button id="login-btn">Connect</button>
+    </div>
+</div>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

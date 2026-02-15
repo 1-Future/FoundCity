@@ -1,3 +1,6 @@
+import http from 'http';
+import fs from 'fs';
+import path from 'path';
 import { WebSocketServer as WSServer, WebSocket } from 'ws';
 
 import NetworkPlayer from '#/engine/entity/NetworkPlayer.js';
@@ -6,18 +9,45 @@ import Environment from '#/util/Environment.js';
 import { processLogin, cleanupRateLimits } from '#/server/login/LoginServer.js';
 import { LoginResponse, loginResponseText } from '#/server/login/Messages.js';
 
+const MIME_TYPES: Record<string, string> = {
+    '.html': 'text/html',
+    '.js': 'application/javascript',
+    '.css': 'text/css',
+    '.json': 'application/json',
+    '.png': 'image/png',
+    '.jpg': 'image/jpeg',
+    '.svg': 'image/svg+xml',
+    '.ico': 'image/x-icon',
+};
+
 export default class WebSocketServer {
     private wss: WSServer | null = null;
+    private httpServer: http.Server | null = null;
     private rateLimitCleanupTimer: ReturnType<typeof setInterval> | null = null;
 
     start(): void {
         const port = Environment.WEB_PORT;
 
-        this.wss = new WSServer({ port });
+        // HTTP server for static files (client/)
+        this.httpServer = http.createServer((req, res) => {
+            const url = req.url === '/' ? '/index.html' : req.url ?? '/index.html';
+            const safePath = path.normalize(url).replace(/^(\.\.(\/|\\|$))+/, '');
+            const filePath = path.join('client', safePath);
 
-        this.wss.on('listening', () => {
-            console.log(`[WebSocket] Server listening on port ${port}`);
+            if (!fs.existsSync(filePath) || !fs.statSync(filePath).isFile()) {
+                res.writeHead(404);
+                res.end('Not found');
+                return;
+            }
+
+            const ext = path.extname(filePath).toLowerCase();
+            const mime = MIME_TYPES[ext] ?? 'application/octet-stream';
+            res.writeHead(200, { 'Content-Type': mime });
+            fs.createReadStream(filePath).pipe(res);
         });
+
+        // WebSocket server attached to the HTTP server
+        this.wss = new WSServer({ server: this.httpServer });
 
         this.wss.on('connection', (ws: WebSocket, req) => {
             const ip = req.socket.remoteAddress ?? 'unknown';
@@ -41,12 +71,7 @@ export default class WebSocketServer {
                                 if (queued instanceof NetworkPlayer) {
                                     player = queued;
                                 }
-
-                                ws.send(JSON.stringify({
-                                    type: 'login_accept',
-                                    pid: 0, // assigned during processLogins
-                                    staffModLevel: player?.staffModLevel ?? 0,
-                                }));
+                                // login_accept is sent by World.processLogins after pid assignment
                             } else {
                                 ws.send(JSON.stringify({
                                     type: 'login_reject',
@@ -84,6 +109,10 @@ export default class WebSocketServer {
             console.error('[WebSocket] Server error:', err);
         });
 
+        this.httpServer.listen(port, () => {
+            console.log(`[WebSocket] Server listening on http://localhost:${port}`);
+        });
+
         // clean up rate limit entries every 30 seconds
         this.rateLimitCleanupTimer = setInterval(cleanupRateLimits, 30_000);
     }
@@ -96,7 +125,11 @@ export default class WebSocketServer {
         if (this.wss) {
             this.wss.close();
             this.wss = null;
-            console.log('[WebSocket] Server stopped');
         }
+        if (this.httpServer) {
+            this.httpServer.close();
+            this.httpServer = null;
+        }
+        console.log('[WebSocket] Server stopped');
     }
 }

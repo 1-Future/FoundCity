@@ -1,1 +1,1581 @@
-[]
+[
+  {
+    "id": 0,
+    "debugname": "uncooked_apple_pie",
+    "params": {
+      "131": 2317,
+      "139": "cooking apple",
+      "140": 30,
+      "142": "an Apple Pie"
+    }
+  },
+  {
+    "id": 1,
+    "debugname": "uncooked_meat_pie",
+    "params": {
+      "131": 2319,
+      "139": "meat",
+      "140": 20,
+      "142": "a Meat Pie"
+    }
+  },
+  {
+    "id": 2,
+    "debugname": "uncooked_redberry_pie",
+    "params": {
+      "131": 2321,
+      "139": "redberries",
+      "140": 10,
+      "142": "a Redberry Pie"
+    }
+  },
+  {
+    "id": 3,
+    "debugname": "anchovy_topping",
+    "params": {
+      "130": 300,
+      "131": 2297,
+      "139": "anchovies",
+      "140": 55,
+      "142": "Anchovy Pizza"
+    }
+  },
+  {
+    "id": 4,
+    "debugname": "pineapple_topping",
+    "params": {
+      "130": 0,
+      "131": 2301,
+      "139": "pineapple",
+      "140": 65,
+      "142": "Pineapple Pizza"
+    }
+  },
+  {
+    "id": 5,
+    "debugname": "meat_topping",
+    "params": {
+      "130": 300,
+      "131": 2293,
+      "139": "meat",
+      "140": 45,
+      "142": "Meat Pizza"
+    }
+  },
+  {
+    "id": 6,
+    "debugname": "onion_kebab",
+    "params": {
+      "131": 1871,
+      "139": "onion"
+    }
+  },
+  {
+    "id": 7,
+    "debugname": "ugthanki_meat_kebab",
+    "params": {
+      "131": 1873,
+      "139": "ugthanki_meat"
+    }
+  },
+  {
+    "id": 8,
+    "debugname": "tomato_kebab",
+    "params": {
+      "131": 1869,
+      "139": "tomato"
+    }
+  },
+  {
+    "id": 9,
+    "debugname": "chopped_onion_kebab",
+    "params": {
+      "119": 1877,
+      "129": 1982,
+      "131": 1875,
+      "139": "onion"
+    }
+  },
+  {
+    "id": 10,
+    "debugname": "chopped_tomato_kebab",
+    "params": {
+      "119": 1875,
+      "129": 1861,
+      "131": 1879,
+      "139": "tomato"
+    }
+  },
+  {
+    "id": 11,
+    "debugname": "chopped_ugthanki_kebab",
+    "params": {
+      "119": 1879,
+      "129": 1957,
+      "131": 1877,
+      "139": "meat"
+    }
+  },
+  {
+    "id": 12,
+    "debugname": "chopped_onion_tomato_kebab",
+    "params": {
+      "129": 1861,
+      "131": 1881,
+      "139": "tomato and onion"
+    }
+  },
+  {
+    "id": 13,
+    "debugname": "chopped_ugthanki_onion_kebab",
+    "params": {
+      "129": 1982,
+      "131": 1881,
+      "139": "meat and onion"
+    }
+  },
+  {
+    "id": 14,
+    "debugname": "chopped_ugthanki_tomato_kebab",
+    "params": {
+      "129": 1957,
+      "131": 1881,
+      "139": "meat and tomato"
+    }
+  },
+  {
+    "id": 15,
+    "debugname": "crunchy_tray",
+    "params": {
+      "131": 2202
+    }
+  },
+  {
+    "id": 16,
+    "debugname": "gnomebowl_mould",
+    "params": {
+      "131": 2178
+    }
+  },
+  {
+    "id": 17,
+    "debugname": "batta_tin",
+    "params": {
+      "131": 2250
+    }
+  },
+  {
+    "id": 18,
+    "debugname": "fire_orb",
+    "params": {
+      "84": 62,
+      "129": 569,
+      "130": 1250,
+      "131": 1393
+    }
+  },
+  {
+    "id": 19,
+    "debugname": "water_orb",
+    "params": {
+      "84": 54,
+      "129": 571,
+      "130": 1000,
+      "131": 1395
+    }
+  },
+  {
+    "id": 20,
+    "debugname": "air_orb",
+    "params": {
+      "84": 66,
+      "129": 573,
+      "130": 1375,
+      "131": 1397
+    }
+  },
+  {
+    "id": 21,
+    "debugname": "earth_orb",
+    "params": {
+      "84": 58,
+      "129": 575,
+      "130": 1125,
+      "131": 1399
+    }
+  },
+  {
+    "id": 22,
+    "debugname": "red_cape",
+    "params": {
+      "131": 1007,
+      "135": "red"
+    }
+  },
+  {
+    "id": 23,
+    "debugname": "black_cape",
+    "params": {
+      "135": "black"
+    }
+  },
+  {
+    "id": 24,
+    "debugname": "blue_cape",
+    "params": {
+      "131": 1021,
+      "135": "blue"
+    }
+  },
+  {
+    "id": 25,
+    "debugname": "yellow_cape",
+    "params": {
+      "131": 1023,
+      "135": "yellow"
+    }
+  },
+  {
+    "id": 26,
+    "debugname": "green_cape",
+    "params": {
+      "131": 1027,
+      "135": "green"
+    }
+  },
+  {
+    "id": 27,
+    "debugname": "purple_cape",
+    "params": {
+      "131": 1029,
+      "135": "purple"
+    }
+  },
+  {
+    "id": 28,
+    "debugname": "orange_cape",
+    "params": {
+      "131": 1031,
+      "135": "orange"
+    }
+  },
+  {
+    "id": 29,
+    "debugname": "orange_dye",
+    "params": {
+      "129": 1763,
+      "131": 1769,
+      "133": "an orange",
+      "134": 1765,
+      "135": "orange",
+      "136": 1031
+    }
+  },
+  {
+    "id": 30,
+    "debugname": "green_dye",
+    "params": {
+      "129": 1767,
+      "131": 1771,
+      "133": "a green",
+      "134": 1765,
+      "135": "green",
+      "136": 1027
+    }
+  },
+  {
+    "id": 31,
+    "debugname": "purple_dye",
+    "params": {
+      "129": 1763,
+      "131": 1773,
+      "133": "a purple",
+      "134": 1767,
+      "135": "purple",
+      "136": 1029
+    }
+  },
+  {
+    "id": 32,
+    "debugname": "red_dye",
+    "params": {
+      "131": 1763,
+      "135": "red",
+      "136": 1007
+    }
+  },
+  {
+    "id": 33,
+    "debugname": "yellow_dye",
+    "params": {
+      "131": 1765,
+      "135": "yellow",
+      "136": 1023
+    }
+  },
+  {
+    "id": 34,
+    "debugname": "blue_dye",
+    "params": {
+      "131": 1767,
+      "135": "blue",
+      "136": 1021
+    }
+  },
+  {
+    "id": 35,
+    "debugname": "uncut_diamond",
+    "params": {
+      "129": 1617,
+      "130": 1075,
+      "131": 1601,
+      "138": "You need a Crafting level of 43 to cut diamonds.",
+      "139": "You cut the Diamond.",
+      "140": 43,
+      "141": 886
+    }
+  },
+  {
+    "id": 36,
+    "debugname": "uncut_ruby",
+    "params": {
+      "129": 1619,
+      "130": 850,
+      "131": 1603,
+      "138": "You need a Crafting level of 34 to cut rubies.",
+      "139": "You cut the Ruby.",
+      "140": 34,
+      "141": 887
+    }
+  },
+  {
+    "id": 37,
+    "debugname": "uncut_emerald",
+    "params": {
+      "129": 1621,
+      "130": 675,
+      "131": 1605,
+      "138": "You need a Crafting level of 27 to cut emeralds.",
+      "139": "You cut the Emerald.",
+      "140": 27,
+      "141": 889
+    }
+  },
+  {
+    "id": 38,
+    "debugname": "uncut_sapphire",
+    "params": {
+      "129": 1623,
+      "130": 500,
+      "131": 1607,
+      "138": "You need a Crafting level of 20 to cut sapphires.",
+      "139": "You cut the Sapphire.",
+      "140": 20,
+      "141": 888
+    }
+  },
+  {
+    "id": 39,
+    "debugname": "uncut_opal",
+    "params": {
+      "129": 1625,
+      "130": 150,
+      "131": 1609,
+      "138": "You need a Crafting level of 1 to cut opals.",
+      "139": "You cut the Opal.",
+      "140": 1,
+      "141": 890
+    }
+  },
+  {
+    "id": 40,
+    "debugname": "uncut_jade",
+    "params": {
+      "129": 1627,
+      "130": 200,
+      "131": 1611,
+      "138": "You need a Crafting level of 13 to cut jades.",
+      "139": "You cut the Jade.",
+      "140": 13,
+      "141": 891
+    }
+  },
+  {
+    "id": 41,
+    "debugname": "uncut_red_topaz",
+    "params": {
+      "129": 1629,
+      "130": 250,
+      "131": 1613,
+      "138": "You need a Crafting level of 16 to cut red topaz.",
+      "139": "You cut the Red Topaz.",
+      "140": 16,
+      "141": 892
+    }
+  },
+  {
+    "id": 42,
+    "debugname": "uncut_dragonstone",
+    "params": {
+      "129": 1631,
+      "130": 1375,
+      "131": 1615,
+      "138": "You need a Crafting level of 55 to cut dragonstones.",
+      "139": "You cut the Dragonstone.",
+      "140": 55,
+      "141": 885
+    }
+  },
+  {
+    "id": 43,
+    "debugname": "beer_glass",
+    "params": {
+      "130": 175,
+      "131": 1919,
+      "139": "a beer glass"
+    }
+  },
+  {
+    "id": 44,
+    "debugname": "vial_empty",
+    "params": {
+      "84": 33,
+      "130": 350,
+      "131": 229,
+      "139": "a vial"
+    }
+  },
+  {
+    "id": 45,
+    "debugname": "stafforb",
+    "params": {
+      "84": 46,
+      "130": 525,
+      "131": 567,
+      "139": "an orb"
+    }
+  },
+  {
+    "id": 46,
+    "debugname": "gold_ring",
+    "params": {
+      "130": 150,
+      "131": 1635,
+      "140": 5
+    }
+  },
+  {
+    "id": 47,
+    "debugname": "sapphire_ring",
+    "params": {
+      "130": 400,
+      "131": 1637,
+      "140": 20,
+      "144": 1607
+    }
+  },
+  {
+    "id": 48,
+    "debugname": "emerald_ring",
+    "params": {
+      "130": 550,
+      "131": 1639,
+      "140": 27,
+      "144": 1605
+    }
+  },
+  {
+    "id": 49,
+    "debugname": "ruby_ring",
+    "params": {
+      "130": 700,
+      "131": 1641,
+      "140": 34,
+      "144": 1603
+    }
+  },
+  {
+    "id": 50,
+    "debugname": "diamond_ring",
+    "params": {
+      "130": 850,
+      "131": 1643,
+      "140": 43,
+      "144": 1601
+    }
+  },
+  {
+    "id": 51,
+    "debugname": "dragonstone_ring",
+    "params": {
+      "130": 1000,
+      "131": 1645,
+      "140": 55,
+      "144": 1615
+    }
+  },
+  {
+    "id": 52,
+    "debugname": "gold_necklace",
+    "params": {
+      "130": 200,
+      "131": 1654,
+      "140": 6
+    }
+  },
+  {
+    "id": 53,
+    "debugname": "sapphire_necklace",
+    "params": {
+      "130": 550,
+      "131": 1656,
+      "140": 20,
+      "144": 1607
+    }
+  },
+  {
+    "id": 54,
+    "debugname": "emerald_necklace",
+    "params": {
+      "130": 600,
+      "131": 1658,
+      "140": 29,
+      "144": 1605
+    }
+  },
+  {
+    "id": 55,
+    "debugname": "ruby_necklace",
+    "params": {
+      "130": 750,
+      "131": 1660,
+      "140": 40,
+      "144": 1603
+    }
+  },
+  {
+    "id": 56,
+    "debugname": "diamond_necklace",
+    "params": {
+      "130": 900,
+      "131": 1662,
+      "140": 56,
+      "144": 1601
+    }
+  },
+  {
+    "id": 57,
+    "debugname": "dragonstone_necklace",
+    "params": {
+      "130": 1050,
+      "131": 1664,
+      "140": 72,
+      "144": 1615
+    }
+  },
+  {
+    "id": 58,
+    "debugname": "unstrung_gold_amulet",
+    "params": {
+      "130": 300,
+      "131": 1673,
+      "140": 8,
+      "145": 1692
+    }
+  },
+  {
+    "id": 59,
+    "debugname": "unstrung_sapphire_amulet",
+    "params": {
+      "130": 650,
+      "131": 1675,
+      "140": 24,
+      "144": 1607,
+      "145": 1694
+    }
+  },
+  {
+    "id": 60,
+    "debugname": "unstrung_emerald_amulet",
+    "params": {
+      "130": 700,
+      "131": 1677,
+      "140": 31,
+      "144": 1605,
+      "145": 1696
+    }
+  },
+  {
+    "id": 61,
+    "debugname": "unstrung_ruby_amulet",
+    "params": {
+      "130": 850,
+      "131": 1679,
+      "140": 50,
+      "144": 1603,
+      "145": 1698
+    }
+  },
+  {
+    "id": 62,
+    "debugname": "unstrung_diamond_amulet",
+    "params": {
+      "130": 1000,
+      "131": 1681,
+      "140": 70,
+      "144": 1601,
+      "145": 1700
+    }
+  },
+  {
+    "id": 63,
+    "debugname": "unstrung_dragonstone_amulet",
+    "params": {
+      "130": 1500,
+      "131": 1683,
+      "140": 80,
+      "144": 1615,
+      "145": 1702
+    }
+  },
+  {
+    "id": 64,
+    "debugname": "unstrung_symbol",
+    "params": {
+      "130": 500,
+      "131": 1714,
+      "140": 16,
+      "145": 1716,
+      "146": "holy symbol",
+      "195": "Holy Symbol of Saradomin"
+    }
+  },
+  {
+    "id": 65,
+    "debugname": "unstrung_emblem",
+    "params": {
+      "130": 500,
+      "131": 1720,
+      "140": 17,
+      "145": 1722,
+      "146": "unholy symbol",
+      "195": "Unholy Symbol of Zamorak"
+    }
+  },
+  {
+    "id": 66,
+    "debugname": "perfect_ring",
+    "params": {
+      "130": 700,
+      "131": 773,
+      "140": 34,
+      "144": 1603
+    }
+  },
+  {
+    "id": 67,
+    "debugname": "perfect_necklace",
+    "params": {
+      "130": 750,
+      "131": 774,
+      "140": 40,
+      "144": 1603
+    }
+  },
+  {
+    "id": 68,
+    "debugname": "soft_clay",
+    "params": {
+      "133": "You now have some soft workable clay."
+    }
+  },
+  {
+    "id": 69,
+    "debugname": "unfired_pot",
+    "params": {
+      "84": 1,
+      "130": 63,
+      "131": 1931,
+      "148": 63
+    }
+  },
+  {
+    "id": 70,
+    "debugname": "unfired_piedish",
+    "params": {
+      "84": 7,
+      "130": 100,
+      "131": 2313,
+      "148": 150
+    }
+  },
+  {
+    "id": 71,
+    "debugname": "unfired_bowl",
+    "params": {
+      "84": 8,
+      "130": 150,
+      "131": 1923,
+      "148": 180
+    }
+  },
+  {
+    "id": 72,
+    "debugname": "flax",
+    "params": {
+      "84": 10,
+      "129": 1779,
+      "130": 150,
+      "131": 1777,
+      "133": "You spin the flax into a Bow String."
+    }
+  },
+  {
+    "id": 73,
+    "debugname": "wool",
+    "params": {
+      "129": 1737,
+      "130": 25,
+      "131": 1759,
+      "133": "You spin the wool into a nice ball of wool."
+    }
+  },
+  {
+    "id": 74,
+    "debugname": "studded_body",
+    "params": {
+      "129": 1129,
+      "130": 400,
+      "131": 1133,
+      "138": "You need a Crafting level of 41 to make a studded body.",
+      "139": "You make a studded body.",
+      "140": 41
+    }
+  },
+  {
+    "id": 75,
+    "debugname": "studded_chaps",
+    "params": {
+      "129": 1095,
+      "130": 420,
+      "131": 1097,
+      "138": "You need a Crafting level of 44 to make studded chaps.",
+      "139": "You make some studded chaps.",
+      "140": 44
+    }
+  },
+  {
+    "id": 76,
+    "debugname": "fishing_struct_shrimps",
+    "params": {
+      "130": 100,
+      "139": "You catch some shrimps.",
+      "159": 48,
+      "160": 256
+    }
+  },
+  {
+    "id": 77,
+    "debugname": "fishing_struct_anchovies",
+    "params": {
+      "130": 400,
+      "139": "You catch some anchovies.",
+      "159": 24,
+      "160": 128
+    }
+  },
+  {
+    "id": 78,
+    "debugname": "fishing_struct_sardine",
+    "params": {
+      "130": 200,
+      "139": "You catch a sardine.",
+      "159": 32,
+      "160": 192
+    }
+  },
+  {
+    "id": 79,
+    "debugname": "fishing_struct_herring",
+    "params": {
+      "130": 300,
+      "139": "You catch a herring.",
+      "159": 24,
+      "160": 128
+    }
+  },
+  {
+    "id": 80,
+    "debugname": "fishing_struct_trout",
+    "params": {
+      "130": 500,
+      "139": "You catch a trout.",
+      "159": 32,
+      "160": 192
+    }
+  },
+  {
+    "id": 81,
+    "debugname": "fishing_struct_salmon",
+    "params": {
+      "130": 700,
+      "139": "You catch a salmon.",
+      "159": 16,
+      "160": 96
+    }
+  },
+  {
+    "id": 82,
+    "debugname": "fishing_struct_pike",
+    "params": {
+      "130": 600,
+      "139": "You catch a pike.",
+      "159": 16,
+      "160": 96
+    }
+  },
+  {
+    "id": 83,
+    "debugname": "fishing_struct_tuna",
+    "params": {
+      "130": 800,
+      "139": "You catch a tuna.",
+      "159": 8,
+      "160": 64
+    }
+  },
+  {
+    "id": 84,
+    "debugname": "fishing_struct_lobster",
+    "params": {
+      "130": 900,
+      "139": "You catch a lobster.",
+      "159": 6,
+      "160": 95
+    }
+  },
+  {
+    "id": 85,
+    "debugname": "fishing_struct_swordfish",
+    "params": {
+      "130": 1000,
+      "139": "You catch a swordfish.",
+      "159": 4,
+      "160": 48
+    }
+  },
+  {
+    "id": 86,
+    "debugname": "fishing_struct_shark",
+    "params": {
+      "130": 1100,
+      "139": "You catch a shark!",
+      "159": 3,
+      "160": 40
+    }
+  },
+  {
+    "id": 87,
+    "debugname": "fishing_struct_lava_eel",
+    "params": {
+      "130": 600,
+      "139": "You catch a lava eel.",
+      "159": 16,
+      "160": 96
+    }
+  },
+  {
+    "id": 88,
+    "debugname": "fishing_struct_mantaray",
+    "params": {
+      "130": 690
+    }
+  },
+  {
+    "id": 89,
+    "debugname": "fishing_struct_seaturtle",
+    "params": {
+      "130": 570
+    }
+  },
+  {
+    "id": 90,
+    "debugname": "fish_equipment_lobster_pot",
+    "params": {
+      "153": "You need a lobster pot to catch lobsters.",
+      "154": "There aren't any Lobsters to catch here."
+    }
+  },
+  {
+    "id": 91,
+    "debugname": "fish_equipment_net",
+    "params": {
+      "153": "You need a net to catch these fish.",
+      "154": "There is nothing suitable for catching with a net here."
+    }
+  },
+  {
+    "id": 92,
+    "debugname": "fish_equipment_big_net",
+    "params": {
+      "153": "You need a big net to catch these fish.",
+      "154": "There is nothing suitable for catching with a net here."
+    }
+  },
+  {
+    "id": 93,
+    "debugname": "fish_equipment_fishing_rod",
+    "params": {
+      "153": "You need a Fishing Rod to bait these fish.",
+      "154": "There is nothing suitable for catching with a rod here.",
+      "157": 313,
+      "158": "fishing bait"
+    }
+  },
+  {
+    "id": 94,
+    "debugname": "fish_equipment_fly_fishing_rod",
+    "params": {
+      "153": "You need a fly fishing rod to lure these fish.",
+      "154": "You should use this rod to catch freshwater fish.",
+      "157": 314,
+      "158": "feathers"
+    }
+  },
+  {
+    "id": 95,
+    "debugname": "fish_equipment_harpoon",
+    "params": {
+      "153": "You need a harpoon to catch these fish.",
+      "154": "There aren't any fish suitable for Harpooning here."
+    }
+  },
+  {
+    "id": 96,
+    "debugname": "unf_guam_potion",
+    "params": {
+      "164": 227,
+      "165": 91,
+      "166": "You put the Guam Leaf into the vial of water.",
+      "167": 249
+    }
+  },
+  {
+    "id": 97,
+    "debugname": "unf_marrentill_potion",
+    "params": {
+      "162": 5,
+      "164": 227,
+      "165": 93,
+      "166": "You put the Marrentill into the vial of water.",
+      "167": 251
+    }
+  },
+  {
+    "id": 98,
+    "debugname": "unf_tarromin_potion",
+    "params": {
+      "162": 12,
+      "164": 227,
+      "165": 95,
+      "166": "You put the Tarromin into the vial of water.",
+      "167": 253
+    }
+  },
+  {
+    "id": 99,
+    "debugname": "unf_harralander_potion",
+    "params": {
+      "162": 22,
+      "164": 227,
+      "165": 97,
+      "166": "You put the Harralander into the vial of water.",
+      "167": 255
+    }
+  },
+  {
+    "id": 100,
+    "debugname": "unf_ranarr_potion",
+    "params": {
+      "162": 30,
+      "164": 227,
+      "165": 99,
+      "166": "You put the Ranarr Weed into the vial of water.",
+      "167": 257
+    }
+  },
+  {
+    "id": 101,
+    "debugname": "unf_irit_potion",
+    "params": {
+      "162": 45,
+      "164": 227,
+      "165": 101,
+      "166": "You put the Irit Leaf into the vial of water.",
+      "167": 259
+    }
+  },
+  {
+    "id": 102,
+    "debugname": "unf_avantoe_potion",
+    "params": {
+      "162": 50,
+      "164": 227,
+      "165": 103,
+      "166": "You put the Avantoe into the vial of water.",
+      "167": 261
+    }
+  },
+  {
+    "id": 103,
+    "debugname": "unf_kwuarm_potion",
+    "params": {
+      "162": 55,
+      "164": 227,
+      "165": 105,
+      "166": "You put the Kwuarm into the vial of water.",
+      "167": 263
+    }
+  },
+  {
+    "id": 104,
+    "debugname": "unf_cadantine_potion",
+    "params": {
+      "162": 66,
+      "164": 227,
+      "165": 107,
+      "166": "You put the Cadantine into the vial of water.",
+      "167": 265
+    }
+  },
+  {
+    "id": 105,
+    "debugname": "unf_lantadyme_potion",
+    "params": {
+      "162": 69,
+      "164": 227,
+      "165": 2483,
+      "166": "You put the Lantadyme into the vial of water.",
+      "167": 2481
+    }
+  },
+  {
+    "id": 106,
+    "debugname": "unf_dwarf_weed_potion",
+    "params": {
+      "162": 72,
+      "164": 227,
+      "165": 109,
+      "166": "You put the Dwarf Weed into the vial of water.",
+      "167": 267
+    }
+  },
+  {
+    "id": 107,
+    "debugname": "unf_torstol_potion",
+    "params": {
+      "162": 78,
+      "164": 227,
+      "165": 111,
+      "166": "You put the Torstol into the vial of water.",
+      "167": 269
+    }
+  },
+  {
+    "id": 108,
+    "debugname": "3dose1attack",
+    "params": {
+      "163": 250,
+      "164": 91,
+      "165": 121,
+      "166": "You mix the eye of newt into your potion.",
+      "167": 221
+    }
+  },
+  {
+    "id": 109,
+    "debugname": "3dose2attack",
+    "params": {
+      "162": 45,
+      "163": 1000,
+      "164": 101,
+      "165": 145,
+      "166": "You mix the eye of newt into your potion.",
+      "167": 221
+    }
+  },
+  {
+    "id": 110,
+    "debugname": "3dose1restore",
+    "params": {
+      "162": 22,
+      "163": 625,
+      "164": 97,
+      "165": 127,
+      "166": "You mix the red spiders' eggs into your potion.",
+      "167": 223
+    }
+  },
+  {
+    "id": 111,
+    "debugname": "3dose1strength",
+    "params": {
+      "162": 12,
+      "163": 500,
+      "164": 95,
+      "165": 115,
+      "166": "You mix the limpwurt root into your potion.",
+      "167": 225
+    }
+  },
+  {
+    "id": 112,
+    "debugname": "3dose2strength",
+    "params": {
+      "162": 55,
+      "163": 1250,
+      "164": 105,
+      "165": 157,
+      "166": "You mix the limpwurt root into your potion.",
+      "167": 225
+    }
+  },
+  {
+    "id": 113,
+    "debugname": "3doseprayerrestore",
+    "params": {
+      "162": 38,
+      "163": 875,
+      "164": 99,
+      "165": 139,
+      "166": "You mix the snape grass into your potion.",
+      "167": 231
+    }
+  },
+  {
+    "id": 114,
+    "debugname": "3dosefisherspotion",
+    "params": {
+      "162": 50,
+      "163": 1125,
+      "164": 103,
+      "165": 151,
+      "166": "You mix the snape grass into your potion.",
+      "167": 231
+    }
+  },
+  {
+    "id": 115,
+    "debugname": "3doseantipoison",
+    "params": {
+      "162": 5,
+      "163": 375,
+      "164": 93,
+      "165": 175,
+      "166": "You mix the unicorn horn dust into your potion.",
+      "167": 235
+    }
+  },
+  {
+    "id": 116,
+    "debugname": "3dose2antipoison",
+    "params": {
+      "162": 48,
+      "163": 1063,
+      "164": 101,
+      "165": 181,
+      "166": "You mix the unicorn horn dust into your potion.",
+      "167": 235
+    }
+  },
+  {
+    "id": 117,
+    "debugname": "3dose1defense",
+    "params": {
+      "162": 30,
+      "163": 750,
+      "164": 99,
+      "165": 133,
+      "166": "You mix the white berries into your potion.",
+      "167": 239
+    }
+  },
+  {
+    "id": 118,
+    "debugname": "3dose2defense",
+    "params": {
+      "162": 66,
+      "163": 1500,
+      "164": 107,
+      "165": 163,
+      "166": "You mix the white berries into your potion.",
+      "167": 239
+    }
+  },
+  {
+    "id": 119,
+    "debugname": "weapon_poison",
+    "params": {
+      "162": 60,
+      "163": 1275,
+      "164": 105,
+      "165": 187,
+      "166": "You mix the dragon scale dust into your potion.",
+      "167": 241
+    }
+  },
+  {
+    "id": 120,
+    "debugname": "3dose1antidragon",
+    "params": {
+      "162": 69,
+      "163": 1575,
+      "164": 2483,
+      "165": 2454,
+      "166": "You mix the dragon scale dust into your potion.",
+      "167": 241
+    }
+  },
+  {
+    "id": 121,
+    "debugname": "3doserangerspotion",
+    "params": {
+      "162": 72,
+      "163": 1625,
+      "164": 109,
+      "165": 169,
+      "166": "You mix the wine of zamorak into your potion.",
+      "167": 245
+    }
+  },
+  {
+    "id": 122,
+    "debugname": "3dosepotionofzamorak",
+    "params": {
+      "162": 78,
+      "163": 1750,
+      "164": 111,
+      "165": 189,
+      "166": "You mix the jangerberries into your potion.",
+      "167": 247
+    }
+  },
+  {
+    "id": 123,
+    "debugname": "blamish_oil",
+    "params": {
+      "162": 25,
+      "163": 800,
+      "164": 97,
+      "165": 1582,
+      "166": "You mix the slime into your potion.",
+      "167": 1581
+    }
+  },
+  {
+    "id": 124,
+    "debugname": "snakeweed_mixture",
+    "params": {
+      "162": 0,
+      "164": 227,
+      "165": 737,
+      "166": "You mix the snake weed into the vial of water.",
+      "167": 1526
+    }
+  },
+  {
+    "id": 125,
+    "debugname": "ardrigal_mixture",
+    "params": {
+      "162": 0,
+      "164": 227,
+      "165": 738,
+      "166": "You mix the Ardrigal into the water.",
+      "167": 1528
+    }
+  },
+  {
+    "id": 126,
+    "debugname": "smelting_bronze_bar",
+    "params": {
+      "129": 436,
+      "130": 62,
+      "131": 2349,
+      "133": "You smelt the copper and tin together in the furnace.",
+      "138": "You need a Smithing level of 1 to smelt a bronze bar.",
+      "139": "You retrieve a bar of bronze.",
+      "140": 1,
+      "179": "You need one copper ore and one tin ore to make bronze.",
+      "191": 1,
+      "192": 438,
+      "202": "You need at least 1 Copper ore and 1 Tin ore to smelt a bronze bar.",
+      "203": 1
+    }
+  },
+  {
+    "id": 127,
+    "debugname": "smelting_iron_bar",
+    "params": {
+      "129": 440,
+      "130": 125,
+      "131": 2351,
+      "133": "You smelt the iron in the furnace.",
+      "138": "You need a Smithing level of 15 to smelt an iron bar.",
+      "139": "You retrieve a bar of iron.",
+      "140": 15,
+      "203": 1
+    }
+  },
+  {
+    "id": 128,
+    "debugname": "smelting_steel_bar",
+    "params": {
+      "129": 440,
+      "130": 175,
+      "131": 2353,
+      "133": "You place the iron and two heaps of coal into the furnace.",
+      "138": "You need a Smithing level of 30 to smelt a steel bar.",
+      "139": "You retrieve a bar of steel.",
+      "140": 30,
+      "191": 2,
+      "192": 453,
+      "202": "You need at least 1 Iron ore and 2 Coal to smelt a steel bar.",
+      "203": 1
+    }
+  },
+  {
+    "id": 129,
+    "debugname": "smelting_silver_bar",
+    "params": {
+      "129": 442,
+      "130": 137,
+      "131": 2355,
+      "133": "You place a lump of silver in the furnace.",
+      "138": "You need a Smithing level of 20 to smelt a silver bar.",
+      "139": "You retrieve a bar of silver from the furnace.",
+      "140": 20,
+      "203": 1
+    }
+  },
+  {
+    "id": 130,
+    "debugname": "smelting_gold_bar",
+    "params": {
+      "129": 444,
+      "130": 225,
+      "131": 2357,
+      "133": "You place a lump of gold in the furnace.",
+      "138": "You need a Smithing level of 40 to smelt a gold bar.",
+      "139": "You retrieve a bar of gold from the furnace.",
+      "140": 40,
+      "203": 1
+    }
+  },
+  {
+    "id": 131,
+    "debugname": "smelting_mithril_bar",
+    "params": {
+      "129": 447,
+      "130": 300,
+      "131": 2359,
+      "133": "You place the mithril and four heaps of coal into the furnace.",
+      "138": "You need a Smithing level of 50 to smelt a mithril bar.",
+      "139": "You retrieve a bar of mithril.",
+      "140": 50,
+      "179": "You need four heaps of coal to smelt mithril.",
+      "191": 4,
+      "192": 453,
+      "202": "You need at least 1 Mithril ore and 4 Coal to smelt a mithril bar.",
+      "203": 1
+    }
+  },
+  {
+    "id": 132,
+    "debugname": "smelting_adamantite_bar",
+    "params": {
+      "129": 449,
+      "130": 375,
+      "131": 2361,
+      "133": "You place the adamantite and six heaps of coal into the furnace.",
+      "138": "You need a Smithing level of 70 to smelt an adamantite bar.",
+      "139": "You retrieve a bar of adamantite.",
+      "140": 70,
+      "179": "You need six heaps of coal to smelt adamantite.",
+      "191": 6,
+      "192": 453,
+      "202": "You need at least 1 Adamantite ore and 6 Coal to smelt an adamantite bar.",
+      "203": 1
+    }
+  },
+  {
+    "id": 133,
+    "debugname": "smelting_runite_bar",
+    "params": {
+      "129": 451,
+      "130": 500,
+      "131": 2363,
+      "133": "You place the runite and eight heaps of coal into the furnace.",
+      "138": "You need a Smithing level of 85 to smelt a runite bar.",
+      "139": "You retrieve a bar of runite.",
+      "140": 85,
+      "179": "You need eight heaps of coal to smelt runite.",
+      "191": 8,
+      "192": 453,
+      "202": "You need at least 1 Runite ore and 8 Coal to smelt a runite bar.",
+      "203": 1
+    }
+  },
+  {
+    "id": 134,
+    "debugname": "smelting_perfect_gold_bar",
+    "params": {
+      "129": 446,
+      "130": 225,
+      "131": 2365,
+      "133": "You place a lump of gold in the furnace.",
+      "138": "You need a Smithing level of 40 to smelt a gold bar.",
+      "139": "You retrieve a bar of gold from the furnace.",
+      "140": 40,
+      "203": 1
+    }
+  },
+  {
+    "id": 135,
+    "debugname": "smithing_bronze_bar",
+    "params": {
+      "140": 1,
+      "149": 2349,
+      "195": "bronze",
+      "196": 125,
+      "197": 101,
+      "198": 102,
+      "199": 103,
+      "200": 104,
+      "201": 105
+    }
+  },
+  {
+    "id": 136,
+    "debugname": "smithing_iron_bar",
+    "params": {
+      "140": 15,
+      "149": 2351,
+      "195": "iron",
+      "196": 250,
+      "197": 106,
+      "198": 107,
+      "199": 108,
+      "200": 109,
+      "201": 110
+    }
+  },
+  {
+    "id": 137,
+    "debugname": "smithing_steel_bar",
+    "params": {
+      "140": 30,
+      "149": 2353,
+      "195": "steel",
+      "196": 375,
+      "197": 111,
+      "198": 112,
+      "199": 113,
+      "200": 114,
+      "201": 115
+    }
+  },
+  {
+    "id": 138,
+    "debugname": "smithing_mithril_bar",
+    "params": {
+      "140": 50,
+      "149": 2359,
+      "195": "mithril",
+      "196": 500,
+      "197": 116,
+      "198": 117,
+      "199": 118,
+      "200": 119,
+      "201": 120
+    }
+  },
+  {
+    "id": 139,
+    "debugname": "smithing_adamantite_bar",
+    "params": {
+      "140": 70,
+      "149": 2361,
+      "195": "adamantite",
+      "196": 625,
+      "197": 121,
+      "198": 122,
+      "199": 123,
+      "200": 124,
+      "201": 125
+    }
+  },
+  {
+    "id": 140,
+    "debugname": "smithing_runite_bar",
+    "params": {
+      "140": 85,
+      "149": 2363,
+      "195": "runite",
+      "196": 750,
+      "197": 126,
+      "198": 127,
+      "199": 128,
+      "200": 129,
+      "201": 130
+    }
+  },
+  {
+    "id": 141,
+    "debugname": "woodcutting_bronze_axe",
+    "params": {
+      "141": 879
+    }
+  },
+  {
+    "id": 142,
+    "debugname": "woodcutting_iron_axe",
+    "params": {
+      "141": 877
+    }
+  },
+  {
+    "id": 143,
+    "debugname": "woodcutting_steel_axe",
+    "params": {
+      "141": 875
+    }
+  },
+  {
+    "id": 144,
+    "debugname": "woodcutting_black_axe",
+    "params": {
+      "141": 873
+    }
+  },
+  {
+    "id": 145,
+    "debugname": "woodcutting_mithril_axe",
+    "params": {
+      "141": 871
+    }
+  },
+  {
+    "id": 146,
+    "debugname": "woodcutting_adamant_axe",
+    "params": {
+      "141": 869
+    }
+  },
+  {
+    "id": 147,
+    "debugname": "woodcutting_rune_axe",
+    "params": {
+      "141": 867
+    }
+  }
+]

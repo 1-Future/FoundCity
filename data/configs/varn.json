@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "id": 0,
+    "debugname": "npc_macro_event_target",
+    "type": 112
+  },
+  {
+    "id": 1,
+    "debugname": "npc_combat_xp_multiplier",
+    "type": 105
+  },
+  {
+    "id": 2,
+    "debugname": "quest_chompybird_baiter",
+    "type": 112
+  },
+  {
+    "id": 3,
+    "debugname": "rantz_attacking_chompy",
+    "type": 78
+  },
+  {
+    "id": 4,
+    "debugname": "npc_start_coord",
+    "type": 99
+  },
+  {
+    "id": 5,
+    "debugname": "npc_action_delay",
+    "type": 105
+  },
+  {
+    "id": 6,
+    "debugname": "npc_attacking_uid",
+    "type": 112
+  },
+  {
+    "id": 7,
+    "debugname": "npc_aggressive_player",
+    "type": 112
+  },
+  {
+    "id": 8,
+    "debugname": "npc_lastcombat",
+    "type": 105
+  },
+  {
+    "id": 9,
+    "debugname": "npc_stunned",
+    "type": 105
+  },
+  {
+    "id": 10,
+    "debugname": "npc_lastattack",
+    "type": 105
+  },
+  {
+    "id": 11,
+    "debugname": "npc_poison",
+    "type": 105
+  },
+  {
+    "id": 12,
+    "debugname": "npc_trawler_flood_status",
+    "type": 105
+  },
+  {
+    "id": 13,
+    "debugname": "npc_trawler_fish_caught",
+    "type": 105
+  },
+  {
+    "id": 14,
+    "debugname": "npc_int",
+    "type": 105
+  },
+  {
+    "id": 15,
+    "debugname": "npc_int2",
+    "type": 105
+  }
+]

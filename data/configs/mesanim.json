@@ -1,1 +1,182 @@
-[]
+[
+  {
+    "id": 0,
+    "debugname": "goblinchat",
+    "len": [
+      580,
+      581,
+      582,
+      583
+    ]
+  },
+  {
+    "id": 1,
+    "debugname": "happy",
+    "len": [
+      567,
+      568,
+      569,
+      570
+    ]
+  },
+  {
+    "id": 2,
+    "debugname": "bored",
+    "len": [
+      562,
+      563,
+      564,
+      565
+    ]
+  },
+  {
+    "id": 3,
+    "debugname": "short",
+    "len": [
+      566,
+      566,
+      566,
+      566
+    ]
+  },
+  {
+    "id": 4,
+    "debugname": "neutral",
+    "len": [
+      588,
+      589,
+      590,
+      591
+    ]
+  },
+  {
+    "id": 5,
+    "debugname": "shock",
+    "len": [
+      571,
+      572,
+      573,
+      574
+    ]
+  },
+  {
+    "id": 6,
+    "debugname": "confused",
+    "len": [
+      575,
+      576,
+      577,
+      578
+    ]
+  },
+  {
+    "id": 7,
+    "debugname": "idle",
+    "len": [
+      579,
+      579,
+      579,
+      579
+    ]
+  },
+  {
+    "id": 8,
+    "debugname": "quiz",
+    "len": [
+      554,
+      555,
+      556,
+      557
+    ]
+  },
+  {
+    "id": 9,
+    "debugname": "shifty",
+    "len": [
+      592,
+      593,
+      594,
+      595
+    ]
+  },
+  {
+    "id": 10,
+    "debugname": "scared",
+    "len": [
+      596,
+      597,
+      598,
+      599
+    ]
+  },
+  {
+    "id": 11,
+    "debugname": "drunk",
+    "len": [
+      600,
+      601,
+      602,
+      603
+    ]
+  },
+  {
+    "id": 12,
+    "debugname": "verymad",
+    "len": [
+      604,
+      604,
+      604,
+      604
+    ]
+  },
+  {
+    "id": 13,
+    "debugname": "laugh",
+    "len": [
+      605,
+      606,
+      607,
+      608
+    ]
+  },
+  {
+    "id": 14,
+    "debugname": "evillaugh",
+    "len": [
+      609,
+      609,
+      609,
+      609
+    ]
+  },
+  {
+    "id": 15,
+    "debugname": "sad",
+    "len": [
+      610,
+      611,
+      612,
+      613
+    ]
+  },
+  {
+    "id": 16,
+    "debugname": "angry",
+    "len": [
+      614,
+      615,
+      616,
+      617
+    ]
+  },
+  {
+    "id": 17,
+    "debugname": "skull",
+    "len": [
+      558,
+      559,
+      560,
+      561
+    ]
+  }
+]
