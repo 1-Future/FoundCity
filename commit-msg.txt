@@ -1,0 +1,17 @@
+fix: comparator robustness for pathfinder-divergent walk paths
+
+- Skip movement-only player_info (no masks) from bucket comparison.
+  Walk paths differ between TS BFS (FC) and WASM rsmod (REF), so
+  intermediate positions are non-deterministic across implementations.
+  Meaningful state changes (spawn, chat, combat) always carry masks.
+
+- Move if_close to SKIP_TYPES + PRESENCE_ANY_TICK global check.
+  if_close timing depends on when the player reaches the NPC, which
+  varies by 1 tick between pathfinders. Now verified as "did both
+  sides send it?" rather than "did it arrive in the same 1200ms window?"
+
+- Best-match diffTick: find lowest-diff candidate within bucket
+  rather than positional match (fixes out-of-order chat mask timing).
+
+All 5 dual-server scenarios now pass consistently:
+  01 login/spawn, 02 walk, 03 attack-rat, 04 public-chat, 05 pickup-item

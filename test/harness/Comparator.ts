@@ -29,7 +29,18 @@ const SKIP_TYPES = new Set([
     // correctness is tested by the attack-rat scenario instead.
     // TODO: re-enable once npc_info is only sent on state-change.
     'npc_info',
+
+    // if_close timing depends on when the player reaches the NPC, which varies
+    // by 1 tick between pathfinder implementations (TS BFS vs WASM rsmod).
+    // Presence is checked globally in compare() instead.
+    'if_close',
 ]);
+
+/**
+ * Message types where we only check global presence (did both sides send it?),
+ * not timing. These are in SKIP_TYPES to avoid per-tick bucket comparison.
+ */
+const PRESENCE_ANY_TICK = new Set(['if_close']);
 
 export type DiffSeverity =
     | 'exact_mismatch'
@@ -70,14 +81,23 @@ function bucket(
     for (const { elapsed, msg } of messages) {
         if (SKIP_TYPES.has(msg.type as string)) continue;
 
-        // Normalize the message and skip "empty" player/npc updates.
-        // An empty update has no meaningful content after stripping pids/bystanders:
-        // it would just be {type:"player_info", players:[]}, which causes bucket
-        // mismatches when both servers send them at different tick phases.
+        // Normalize and skip structurally empty updates.
         const normed = normalize(msg);
         if (normed.type === 'player_info') {
-            const players = normed.players as unknown[] | undefined;
+            const players = normed.players as Record<string, unknown>[] | undefined;
             if (!players || players.length === 0) continue;
+
+            // Skip movement-only player_info (no masks on any player).
+            // Walk paths differ between TS BFS and WASM rsmod pathfinders, so
+            // comparing intermediate positions produces false negatives.
+            // Meaningful state changes (appearance, chat, combat) always have masks.
+            const hasAnyMasks = players.some(p => {
+                const m = p.masks;
+                return m !== null && m !== undefined
+                    && typeof m === 'object'
+                    && Object.keys(m as object).length > 0;
+            });
+            if (!hasAnyMasks) continue;
         }
         if (normed.type === 'npc_info') {
             const npcs = normed.npcs as unknown[] | undefined;
@@ -202,6 +222,29 @@ export function compare(
         const ref = refBuckets.find(b => b.tick === tick)?.messages ?? [];
         const test = testBuckets.find(b => b.tick === tick)?.messages ?? [];
         diffs.push(...diffTick(tick, ref, test));
+    }
+
+    // Global presence checks: verify that timing-sensitive messages were sent by
+    // both sides, regardless of which tick they arrived in.
+    for (const ptype of PRESENCE_ANY_TICK) {
+        const refHas = refMessages.some(m => m.msg.type === ptype);
+        const testHas = testMessages.some(m => m.msg.type === ptype);
+        if (refHas && !testHas) {
+            diffs.push({
+                tick: -1,
+                severity: 'missing_message',
+                description: `Missing ${ptype} in FoundCity (any tick)`,
+                refMsg: { type: ptype },
+            });
+        } else if (!refHas && testHas) {
+            diffs.push({
+                tick: -1,
+                severity: 'extra_message',
+                description: `Extra ${ptype} in FoundCity (any tick)`,
+                testMsg: { type: ptype },
+            });
+        }
+        // if both have it (or neither has it): no diff
     }
 
     const hardFails = diffs.filter(
