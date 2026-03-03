@@ -20,6 +20,8 @@ const SKIP_TYPES = new Set([
     'friend_list',          // empty on fresh accounts - order irrelevant
     'friend_status',
     'obj_add',              // dynamic item spawns - timing noise from cheat command
+    'obj_del',              // dynamic item despawns - timing-sensitive; world state from prior
+                            // test runs (leftover bones, etc.) causes false extra-message diffs.
 
     // npc_info: NPC wander uses Math.random() — positions diverge between servers.
     // NPC AI correctness verified indirectly through combat in the attack-rat scenario.

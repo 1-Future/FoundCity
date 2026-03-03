@@ -28,17 +28,20 @@
 // System-level handlers (login, logout, global timers)
 import '#/handlers/systems/index.js';
 
+// Combat handlers
+import '#/handlers/combat/index.js';
+
 // NPC handlers
-// import '#/handlers/npcs/index.js';
+import '#/handlers/npcs/index.js';
 
 // Loc handlers
-// import '#/handlers/locs/index.js';
+import '#/handlers/locs/index.js';
 
 // Item handlers
 import '#/handlers/items/index.js';
 
-// Combat handlers
-// import '#/handlers/combat/index.js';
-
 // Quest handlers
-// import '#/handlers/quests/index.js';
+import '#/handlers/quests/index.js';
+
+// Skill handlers
+import '#/handlers/skills/index.js';

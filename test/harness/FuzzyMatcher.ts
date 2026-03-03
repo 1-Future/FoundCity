@@ -36,6 +36,14 @@ export function normalize(msg: Record<string, unknown>): Record<string, unknown>
                 .map(p => {
                     const { pid: _pid, localPid: _lp, ...rest } = p as Record<string, unknown>;
                     void _pid; void _lp;
+                    // Strip x/z when the player is mid-walk (has moveSpeed).
+                    // TS-BFS and WASM-rsmod pathfinders take slightly different routes,
+                    // so intermediate tile positions are non-deterministic. Appearance
+                    // masks (equipment, chat) are still compared to verify game state.
+                    if (rest.moveSpeed !== undefined && rest.moveSpeed !== null) {
+                        delete (rest as Record<string, unknown>).x;
+                        delete (rest as Record<string, unknown>).z;
+                    }
                     return rest;
                 })
                 .filter(p => {

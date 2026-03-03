@@ -86,7 +86,7 @@ describe('03 — attack rat', () => {
                 { delay: 2 * TICK, action: { type: 'client_cheat', command: 'tele 0,49,50,62,4' } },
                 // Attack the rat immediately — it's at most a few tiles away (wanderrange=15
                 // but only 2 ticks have elapsed since server start, so ~2 random steps max).
-                { delay: TICK, action: { type: 'op_npc', nid: 4759, op: 1 } },
+                { delay: TICK, action: { type: 'op_npc', nid: 4759, op: 2 } }, // op=2 = "Attack" (ops[1])
             ],
             listenMs: 10 * TICK, // walk ≤5 tiles + combat resolution (rat has 2 HP)
         });
