@@ -35,7 +35,7 @@ import '#/handlers/systems/index.js';
 // import '#/handlers/locs/index.js';
 
 // Item handlers
-// import '#/handlers/items/index.js';
+import '#/handlers/items/index.js';
 
 // Combat handlers
 // import '#/handlers/combat/index.js';

@@ -15,6 +15,7 @@ import { MoveSpeed } from '#/engine/entity/MoveSpeed.js';
 import { MoveStrategy } from '#/engine/entity/MoveStrategy.js';
 import Loc from '#/engine/entity/Loc.js';
 import Npc from '#/engine/entity/Npc.js';
+import Obj from '#/engine/entity/Obj.js';
 import Player, { PlayerInfoMask, getLevelByExp, getExpByLevel } from '#/engine/entity/Player.js';
 // PlayerStat is a const enum — create runtime name mapping
 const STAT_NAMES: string[] = [
@@ -66,6 +67,7 @@ export function processCheatCommand(player: NetworkPlayer, input: string): boole
             case 'minme': return cmdMinMe(player);
             case 'npcadd': return cmdNpcAdd(player, parts);
             case 'locadd': return cmdLocAdd(player, parts);
+        case 'spawnobj': return cmdSpawnObj(player, parts);
             case 'teleother': return cmdTeleOther(player, parts);
             case 'setvarother': return cmdSetVarOther(player, parts);
             case 'getvarother': return cmdGetVarOther(player, parts);
@@ -432,6 +434,33 @@ function cmdNpcAdd(player: Player, parts: string[]): boolean {
     World.shared.addNpc(npc);
     npc.setLifeCycle(500); // despawn after 500 ticks (5 minutes)
     gameMessage(player, `Spawned NPC: ${npcType.name} (id=${npcId})`);
+    return true;
+}
+
+function cmdSpawnObj(player: Player, parts: string[]): boolean {
+    if (parts.length < 2) {
+        gameMessage(player, 'Usage: ::spawnobj <item_name_or_id> [count]');
+        return true;
+    }
+
+    const objId = resolveObj(parts[1]);
+    if (objId === -1) {
+        gameMessage(player, `Unknown item: ${parts[1]}`);
+        return true;
+    }
+
+    const count = parts.length >= 3 ? Math.max(1, parseInt(parts[2], 10) || 1) : 1;
+    const objType = ObjStore.get(objId);
+
+    const obj = new Obj(
+        player.level, player.x, player.z,
+        EntityLifeCycle.DESPAWN,
+        objId, count
+    );
+
+    // Spawn publicly (no receiver) so any player can pick it up
+    World.addObj(obj, Obj.NO_RECEIVER, 200);
+    gameMessage(player, `Spawned ${count}x ${objType?.name ?? objId} at (${player.x}, ${player.z})`);
     return true;
 }
 

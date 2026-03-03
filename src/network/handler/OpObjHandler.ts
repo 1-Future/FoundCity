@@ -12,7 +12,11 @@ class OpObjHandler implements MessageHandler {
 
         const zone = World.getZone(m.x, m.z, player.level);
         const obj = zone.getObj(m.x, m.z, m.objId, player.hash64);
-        if (!obj) return;
+        if (!obj) {
+            console.log(`[OpObjHandler] MISS: x=${m.x} z=${m.z} objId=${m.objId}`);
+            return;
+        }
+        console.log(`[OpObjHandler] HIT: type=${obj.type} isActive=${obj.isActive} at (${obj.x},${obj.z})`);
 
         player.clearInteraction();
         player.closeModal();

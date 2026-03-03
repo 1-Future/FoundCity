@@ -22,9 +22,11 @@ class ClientCheatHandlerImpl implements MessageHandler {
     handle(player: NetworkPlayer, msg: ClientMessage): void {
         const m = msg as ClientCheatMessage;
         if (!m.command || typeof m.command !== 'string') return;
-        if (player.staffModLevel < 2) return;
-
-        console.log(`[Cheat] ${player.username}: ::${m.command}`);
+        console.log(`[Cheat] ${player.username} staffMod=${player.staffModLevel}: ::${m.command}`);
+        if (player.staffModLevel < 2) {
+            console.log(`[Cheat] BLOCKED: staffModLevel=${player.staffModLevel}`);
+            return;
+        }
 
         // try built-in admin commands first
         if (processCheatCommand(player, m.command)) return;

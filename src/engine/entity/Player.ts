@@ -11,15 +11,18 @@ import { ModalState } from '#/engine/entity/ModalState.js';
 import { MoveRestrict } from '#/engine/entity/MoveRestrict.js';
 import { MoveSpeed } from '#/engine/entity/MoveSpeed.js';
 import { MoveStrategy } from '#/engine/entity/MoveStrategy.js';
+import Npc from '#/engine/entity/Npc.js';
+import Obj from '#/engine/entity/Obj.js';
 import PathingEntity from '#/engine/entity/PathingEntity.js';
 import { PlayerStat } from '#/engine/entity/PlayerStat.js';
 import PlayerQueueRequest, { PlayerQueueType } from '#/engine/entity/PlayerQueueRequest.js';
-import { CollisionFlag } from '#/engine/GameMap.js';
+import { CollisionFlag, reachedObj } from '#/engine/GameMap.js';
 import { Inventory } from '#/engine/Inventory.js';
 import ScriptProvider from '#/engine/script/ScriptProvider.js';
 import ServerTriggerType from '#/engine/script/ServerTriggerType.js';
 import World from '#/engine/World.js';
 import LinkList from '#/util/LinkList.js';
+import { InvStore } from '#/config/InvType.js';
 
 // ---- info masks ----
 export const enum PlayerInfoMask {
@@ -298,6 +301,14 @@ export default class Player extends PathingEntity {
     // ---- persistence ----
 
     save(): Uint8Array {
+        const invData: { type: number; items: ({ id: number; count: number } | null)[] }[] = [];
+        for (const [type, inv] of this.invs) {
+            invData.push({
+                type,
+                items: inv.items.map(item => item ? { id: item.id, count: item.count } : null),
+            });
+        }
+
         const data = {
             username: this.username,
             x: this.x,
@@ -313,6 +324,7 @@ export default class Player extends PathingEntity {
             runenergy: this.runenergy,
             friendList: this.friendList.map(h => h.toString()),
             ignoreList: this.ignoreList.map(h => h.toString()),
+            invs: invData,
         };
         return new TextEncoder().encode(JSON.stringify(data));
     }
@@ -334,6 +346,22 @@ export default class Player extends PathingEntity {
             this.runenergy = data.runenergy ?? 10000;
             this.friendList = (data.friendList ?? []).map((h: string) => BigInt(h));
             this.ignoreList = (data.ignoreList ?? []).map((h: string) => BigInt(h));
+
+            // restore inventories
+            if (data.invs && Array.isArray(data.invs)) {
+                for (const invData of data.invs) {
+                    const invType = InvStore.get(invData.type);
+                    const capacity = invType?.size ?? invData.items.length;
+                    const stackType = invType?.stackall ? Inventory.ALWAYS_STACK : Inventory.NORMAL_STACK;
+                    const inv = new Inventory(invData.type, capacity, stackType);
+                    for (let i = 0; i < invData.items.length && i < capacity; i++) {
+                        if (invData.items[i]) {
+                            inv.items[i] = { id: invData.items[i].id, count: invData.items[i].count };
+                        }
+                    }
+                    this.invs.set(invData.type, inv);
+                }
+            }
         } catch {
             console.error(`[Player] Failed to load save for ${this.username}`);
         }
@@ -362,13 +390,83 @@ export default class Player extends PathingEntity {
     // ---- interaction + movement (called by World.processPlayers) ----
 
     processInteraction(): void {
-        if (this.target) {
-            // path to target and try interaction
-            this.pathToPathingTarget();
+        if (!this.target) {
+            this.updateMovement();
+            return;
         }
 
-        // movement
+        // Check if target is still valid
+        if (!this.target.isActive) {
+            this.clearInteraction();
+            this.updateMovement();
+            return;
+        }
+
+        // Pre-movement interaction attempt (already adjacent / on same tile)
+        if (this.tryInteract()) {
+            this.updateMovement();
+            return;
+        }
+
+        // Path toward target then move
+        if (this.target instanceof PathingEntity) {
+            this.pathToPathingTarget();
+        } else {
+            this.pathToTarget();
+        }
         this.updateMovement();
+
+        // Post-movement interaction attempt
+        this.tryInteract();
+    }
+
+    /**
+     * Try to execute the pending target op (OPOBJ1, OPNPC1, etc.).
+     * Returns true if the interaction fired.
+     */
+    private tryInteract(): boolean {
+        if (!this.target || this.targetOp < 0) return false;
+        console.log(`[tryInteract] target=${this.target.constructor.name} targetOp=${this.targetOp} isActive=${this.target.isActive}`);
+
+        const handler = this.findOpTrigger();
+        if (!handler) return false;
+
+        // Obj: player must be adjacent to the ground item (reachedObj uses reachedEntity adjacency check)
+        if (this.target instanceof Obj) {
+            if (!reachedObj(this.level, this.x, this.z, this.target.x, this.target.z, this.target.width, this.target.length, this.width)) return false;
+        } else if (this.target instanceof Npc) {
+            // Npc: player must be adjacent (within operable range of NPC hitbox)
+            if (!reachedObj(this.level, this.x, this.z, this.target.x, this.target.z, this.target.width, this.target.length, this.width)) return false;
+        } else {
+            return false;
+        }
+
+        this.interacted = true;
+        handler({ self: this, target: this.target });
+        this.clearInteraction();
+        return true;
+    }
+
+    /**
+     * Look up the ScriptProvider handler for the current targetOp.
+     */
+    private findOpTrigger() {
+        if (!this.target || this.targetOp < 0) return undefined;
+
+        let typeId = -1;
+        let categoryId = -1;
+
+        if (this.target instanceof Obj) {
+            typeId = (this.target as Obj).type;
+        } else if (this.target instanceof Npc) {
+            typeId = (this.target as Npc).type;
+        }
+
+        return ScriptProvider.getByTrigger(
+            this.targetOp as unknown as ServerTriggerType,
+            typeId,
+            categoryId
+        );
     }
 
     // ---- per-tick processing ----

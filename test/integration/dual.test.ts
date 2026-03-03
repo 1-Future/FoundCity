@@ -125,14 +125,15 @@ describe('05 — pick up ground item', () => {
             name: '05-pickup-item',
             username: 'dtest05',
             steps: [
-                // spawn a bone on the ground via cheat (staffmod = 4 in dev)
+                // spawn bones on the ground via cheat at player spawn (3200,3200)
+                // staffModLevel=4 is set in PlayerLoading when NODE_ALLOW_CHEATS=true
                 { delay: 2 * TICK, action: { type: 'client_cheat', command: 'spawnobj 526 1' } },
-                // wait a tick for it to appear
+                // wait a tick for the obj to be registered in the zone
                 { delay: TICK, action: null },
-                // pick it up (op=1 on the nearest obj)
-                { delay: 0, action: { type: 'op_obj', x: 3200, z: 3200, id: 526, op: 1 } },
+                // pick it up — objId field (not 'id') matches OpObjMessage interface
+                { delay: 0, action: { type: 'op_obj', x: 3200, z: 3200, objId: 526, op: 1 } },
             ],
-            listenMs: 4 * TICK,
+            listenMs: 6 * TICK, // spawnobj + walk to obj + pickup + inv_update
         });
         (ctx.task as unknown as { _dualResult: DualResult })._dualResult = result;
         assertPassed(result);
