@@ -71,7 +71,13 @@ export default class WebSocketServer {
                                 if (queued instanceof NetworkPlayer) {
                                     player = queued;
                                 }
-                                // login_accept is sent by World.processLogins after pid assignment
+                                // send login_accept immediately (pid=0; real pid assigned in processLogins)
+                                // processLogins also sends login_accept with the real pid
+                                ws.send(JSON.stringify({
+                                    type: 'login_accept',
+                                    pid: 0,
+                                    staffModLevel: 0,
+                                }));
                             } else {
                                 ws.send(JSON.stringify({
                                     type: 'login_reject',

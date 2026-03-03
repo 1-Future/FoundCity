@@ -30,7 +30,13 @@ export default class BuildArea {
         const originZoneX = this.originX >> 3;
         const originZoneZ = this.originZ >> 3;
 
-        if (this.originX === -1 || Math.abs(zoneX - originZoneX) >= 4 || Math.abs(zoneZ - originZoneZ) >= 4) {
+        // originZoneX/Z is the SW corner of the 13×13 build area.
+        // The CENTER of the build area is originZone + 6 zones.
+        // Rebuild when player has moved >= 4 zones from the center (not from the SW corner).
+        const originCenterZoneX = originZoneX + 6;
+        const originCenterZoneZ = originZoneZ + 6;
+
+        if (this.originX === -1 || Math.abs(zoneX - originCenterZoneX) >= 4 || Math.abs(zoneZ - originCenterZoneZ) >= 4) {
             this.originX = (CoordGrid.zoneCenter(x)) << 3;
             this.originZ = (CoordGrid.zoneCenter(z)) << 3;
             this.loadedZones.clear();
