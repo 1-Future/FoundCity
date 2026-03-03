@@ -24,10 +24,11 @@ const SKIP_TYPES = new Set([
     'obj_add',              // same: zone objects
     'rebuild_normal',       // skip zone rebuild packets - will re-enable after BuildArea fix
 
-    // npc_info is emitted every tick (positions always included), causing timing
-    // bucket mismatches between the two servers' tick phases. NPC positional
-    // correctness is tested by the attack-rat scenario instead.
-    // TODO: re-enable once npc_info is only sent on state-change.
+    // npc_info: position of visible NPCs depends on player position, which varies
+    // between pathfinders (TS BFS vs WASM rsmod). FC player walks slightly different
+    // tiles → different NPCs enter/leave 15-tile range → false positional diffs.
+    // Skip until pathfinding parity is achieved; NPC AI correctness is verified
+    // indirectly through combat damage in the attack-rat scenario.
     'npc_info',
 
     // if_close timing depends on when the player reaches the NPC, which varies
@@ -99,13 +100,10 @@ function bucket(
             });
             if (!hasAnyMasks) continue;
         }
-        if (normed.type === 'npc_info') {
-            const npcs = normed.npcs as unknown[] | undefined;
-            if (!npcs || npcs.length === 0) continue;
-        }
-
         const offset = Math.max(0, elapsed - loginElapsed);
         const tick = Math.floor(offset / TICK_MS);
+
+        // npc_info is in SKIP_TYPES — never reaches here
         if (!buckets.has(tick)) buckets.set(tick, []);
         buckets.get(tick)!.push(msg);
     }

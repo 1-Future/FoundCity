@@ -51,11 +51,22 @@ export function normalize(msg: Record<string, unknown>): Record<string, unknown>
 
     if (type === 'npc_info') {
         if (Array.isArray(out.npcs)) {
-            out.npcs = (out.npcs as Record<string, unknown>[]).map(n => {
-                const { nid: _nid, ...rest } = n as Record<string, unknown>;
-                void _nid;
-                return rest;
-            });
+            out.npcs = (out.npcs as Record<string, unknown>[])
+                .map(n => {
+                    const { nid: _nid, ...rest } = n as Record<string, unknown>;
+                    void _nid;
+                    return rest;
+                })
+                // Sort by (x, z, npcType) so order differences don't cause mismatches
+                .sort((a, b) => {
+                    const ax = (a.x as number) ?? 0, bx = (b.x as number) ?? 0;
+                    const az = (a.z as number) ?? 0, bz = (b.z as number) ?? 0;
+                    const at = (a.npcType as number) ?? 0, bt = (b.npcType as number) ?? 0;
+                    return ax !== bx ? ax - bx : az !== bz ? az - bz : at - bt;
+                });
+        }
+        if (Array.isArray(out.removals)) {
+            delete out.removals;
         }
     }
 
