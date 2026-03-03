@@ -4,6 +4,7 @@ import path from 'path';
 import Player, { getLevelByExp } from '#/engine/entity/Player.js';
 import NetworkPlayer from '#/engine/entity/NetworkPlayer.js';
 import { PlayerStat } from '#/engine/entity/PlayerStat.js';
+import Environment from '#/util/Environment.js';
 import World from '#/engine/World.js';
 import { WebSocket } from 'ws';
 
@@ -48,6 +49,12 @@ export default class PlayerLoading {
         player.updateCombatLevel();
         player.lastResponse = World.currentTick;
 
+        // Always override staffModLevel for cheat-enabled environments.
+        // Even loaded saves won't have it set, and test scenarios need tele/npcadd.
+        if (Environment.NODE_ALLOW_CHEATS) {
+            player.staffModLevel = 4;
+        }
+
         return player;
     }
 
@@ -58,6 +65,12 @@ export default class PlayerLoading {
         player.x = 3200;
         player.z = 3200;
         player.level = 0;
+
+        // Grant admin access in cheat-enabled environments so test scenarios
+        // can use tele/npcadd/give without needing a real login server.
+        if (Environment.NODE_ALLOW_CHEATS) {
+            player.staffModLevel = 4;
+        }
 
         // default stats: all level 1 except hitpoints (10)
         for (let stat = 0; stat < Player.STAT_COUNT; stat++) {

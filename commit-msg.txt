@@ -1,14 +1,16 @@
-chore: npc_info stays in SKIP_TYPES; movement-only player_info skipped
+fix: deterministic attack-rat test via tele + staffModLevel grant
 
-npc_info content is position-dependent: which NPCs appear within 15 tiles
-varies based on where the player walked. FC and REF use different pathfinders
-(TS BFS vs WASM rsmod), so FC players land at slightly different tiles and
-different NPCs enter/leave view range, producing false positional diffs.
-NPC AI logic is identical between servers. Re-enable once pathfinding is fixed.
+Problems fixed:
+Test 03 was targeting nid=1 at world pos (1884,4815) far from spawn.
+Player walked 25+ tiles through NPC-dense terrain causing path divergence
+between servers due to wandering NPCs occupying different tiles each run.
+staffModLevel defaulted to 0, blocking tele and cheat commands even
+with NODE_ALLOW_CHEATS=true.
 
-Also in this commit:
-- Skip movement-only player_info in bucket builder (no masks = walk step,
-  path non-deterministic across pathfinder implementations)
-- Move if_close to SKIP_TYPES + PRESENCE_ANY_TICK global check (timing
-  varies by 1 tick depending on when player reaches the NPC)
-- Best-match diffTick for duplicate message types within same bucket
+Changes:
+PlayerLoading.load(): set staffModLevel=4 when NODE_ALLOW_CHEATS=true.
+Applied post-load so it overrides both new players and existing saves.
+Test 03: tele player to (3198,3204) which is 1 tile east of rat nid=4759
+spawn at (3197,3204). Path to rat is at most 2-3 tiles, no long walk.
+Attack nid=4759 (type 47 Rat, 2HP) which spawns 5 tiles from player spawn.
+listenMs bumped to 10*TICK for walk and combat resolution.

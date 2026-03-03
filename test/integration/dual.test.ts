@@ -78,12 +78,17 @@ describe('03 — attack rat', () => {
             name: '03-attack-rat',
             username: 'dtest03',
             steps: [
-                // first walk near rat spawn (lumbridge cellar area — nid 1 should be a rat)
-                { delay: 2 * TICK, action: { type: 'move_click', x: 3225, z: 3208, run: false } },
-                // attack the closest NPC (nid=1, op=1 = attack)
-                { delay: 5 * TICK, action: { type: 'op_npc', nid: 1, op: 1 } },
+                // Teleport the player directly adjacent to rat nid=4759 (type 47, Rat)
+                // which spawns at (3197, 3204) — 5 tiles from default spawn (3200,3200).
+                // tele format: level,mx,mz,lx,lz  →  (49<<6)+62=3198, (50<<6)+4=3204
+                // Player lands at (3198, 3204) = 1 tile east of rat spawn.
+                // staffModLevel=4 is set in PlayerLoading when NODE_ALLOW_CHEATS=true.
+                { delay: 2 * TICK, action: { type: 'client_cheat', command: 'tele 0,49,50,62,4' } },
+                // Attack the rat immediately — it's at most a few tiles away (wanderrange=15
+                // but only 2 ticks have elapsed since server start, so ~2 random steps max).
+                { delay: TICK, action: { type: 'op_npc', nid: 4759, op: 1 } },
             ],
-            listenMs: 12 * TICK, // enough for combat resolution
+            listenMs: 10 * TICK, // walk ≤5 tiles + combat resolution (rat has 2 HP)
         });
         (ctx.task as unknown as { _dualResult: DualResult })._dualResult = result;
         assertPassed(result);
