@@ -106,7 +106,10 @@ export default class Zone {
             }
         }
         for (const loc of this.getAllLocsUnsafe()) {
-            if (loc.lifecycle === EntityLifeCycle.DESPAWN && loc.isActive) {
+            if (loc.lifecycle === EntityLifeCycle.FOREVER && loc.isActive) {
+                // Static map loc — always present; send to client on zone load
+                player.write({ type: 'loc_add', coord: CoordGrid.packZoneCoord(loc.x, loc.z), locType: loc.type, shape: loc.shape, angle: loc.angle });
+            } else if (loc.lifecycle === EntityLifeCycle.DESPAWN && loc.isActive) {
                 player.write({ type: 'loc_add', coord: CoordGrid.packZoneCoord(loc.x, loc.z), locType: loc.type, shape: loc.shape, angle: loc.angle });
             } else if (loc.lifecycle === EntityLifeCycle.RESPAWN && !loc.isActive) {
                 player.write({ type: 'loc_del', coord: CoordGrid.packZoneCoord(loc.x, loc.z), shape: loc.shape, angle: loc.angle });

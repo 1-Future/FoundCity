@@ -19,22 +19,18 @@ const TICK_MS = 1200;
 const SKIP_TYPES = new Set([
     'friend_list',          // empty on fresh accounts - order irrelevant
     'friend_status',
-    'zone_full_follows',    // zone tracking bug is symmetric; skip until BuildArea is fixed
-    'loc_add',              // same: skip zone loc data, both servers have same bug
-    'obj_add',              // same: zone objects
-    'rebuild_normal',       // skip zone rebuild packets - will re-enable after BuildArea fix
+    'obj_add',              // dynamic item spawns - timing noise from cheat command
 
-    // npc_info: position of visible NPCs depends on player position, which varies
-    // between pathfinders (TS BFS vs WASM rsmod). FC player walks slightly different
-    // tiles → different NPCs enter/leave 15-tile range → false positional diffs.
-    // Skip until pathfinding parity is achieved; NPC AI correctness is verified
-    // indirectly through combat damage in the attack-rat scenario.
+    // npc_info: NPC wander uses Math.random() — positions diverge between servers.
+    // NPC AI correctness verified indirectly through combat in the attack-rat scenario.
     'npc_info',
 
-    // if_close timing depends on when the player reaches the NPC, which varies
-    // by 1 tick between pathfinder implementations (TS BFS vs WASM rsmod).
+    // if_close timing depends on when the player reaches the NPC (tick phase sensitive).
     // Presence is checked globally in compare() instead.
     'if_close',
+
+    // zone_full_follows, loc_add, rebuild_normal: re-enabled after static loc fix.
+    // Both servers now correctly load and broadcast static map locs.
 ]);
 
 /**

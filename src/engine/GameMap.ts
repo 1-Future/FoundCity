@@ -193,9 +193,10 @@ export default class GameMap {
                     this.changeLocCollision(shape, angle, config.blockrange, config.length, config.width, absX, absZ, level, true);
                 }
 
-                // add to zone
+                // add to zone — static map locs use addStaticLoc (FOREVER lifecycle);
+                // zone.addLoc() only handles DESPAWN/script locs
                 const zone = this.zoneMap.zone(absX, absZ, level);
-                zone.addLoc(loc);
+                zone.addStaticLoc(loc);
             }
         }
 
